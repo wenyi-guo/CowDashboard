@@ -1,4 +1,4 @@
-from flask import Flask 
+from flask import Flask
 from azure.cosmos import exceptions, CosmosClient, PartitionKey
 
 endpoint = "https://diaryinstance.documents.azure.com:443/"
@@ -8,13 +8,14 @@ database_name = "daily_milk"
 database = client.create_database_if_not_exists(id=database_name)
 container_name = "container 1"
 container = database.create_container_if_not_exists(
-    id=container_name, 
+    id=container_name,
     partition_key=PartitionKey(path="/Animal_ID"),
     offer_throughput=400
 )
 
 
 app = Flask(__name__)
+
 
 @app.route("/members")
 def members():
@@ -24,8 +25,9 @@ def members():
         query=query,
         enable_cross_partition_query=True
     ))
- 
+
     return {"cows": items}
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     app.run(debug=True)
