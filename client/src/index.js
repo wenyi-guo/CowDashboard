@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const milk = ReactDOM.createRoot(document.getElementById('milk'));
+milk.render(
     <React.StrictMode>
         <App />
     </React.StrictMode>
