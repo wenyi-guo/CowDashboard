@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/members")
 def members():
-    query = "SELECT * FROM c WHERE c.Animal_ID = 1"
+    query = """SELECT c.datesql, c.Animal_ID, c.Group_ID, c.AnimalStatus, c.Gynecology_Status, c["Activity(steps/hr)"], c["Weight(gr)"], c["Yield(gr)"] FROM c WHERE c.Animal_ID = 1"""
 
     items = list(container.query_items(
         query=query,

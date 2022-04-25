@@ -12628,3 +12628,9 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
     width: 100%;
 }
+
+.card-body {
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+}

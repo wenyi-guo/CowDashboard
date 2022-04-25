@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { Table, Tag, Space } from 'antd';
-import { DatePicker } from 'antd';
+import { Table } from 'antd';
+// import 'antd/dist/antd.less';
 import 'antd/dist/antd.css';
 
 function App() {
     const [data, setData] = useState({})
-    var milkContainer = document.getElementById("milk")
 
     useEffect(() => {
         fetch("/members").then(
