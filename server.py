@@ -1,5 +1,7 @@
 from flask import Flask
 from azure.cosmos import exceptions, CosmosClient, PartitionKey
+import pandas as pd
+import json
 
 endpoint = "https://diaryinstance.documents.azure.com:443/"
 
@@ -46,6 +48,30 @@ def milk():
     print(type(items[0]['datesql']))
     return {"milk": items}
 
+@app.route("/")
+def milk_sum():
+    query_milk = """SELECT c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
+    items_milk = list(milk_container.query_items(
+        query=query_milk,
+        enable_cross_partition_query=True
+    ))
+    milk_df = pd.read_json(json.dumps(items_milk),orient='records')
+
+    query_weather = """SELECT c.Date, c.highest_temp, c.lowest_temp, c.avg_temp, c.highest_thi, c.lowest_thi, c.avg_thi, c.num_records_on_day FROM c"""
+    items_weather = list(weather_container.query_items(
+        query=query_weather,
+        enable_cross_partition_query=True
+    ))
+    weather_df = pd.read_json(json.dumps(items_weather),orient='records')
+
+    aggregation_functions = {'Lactation_Num': 'first', 'Yield(gr)': 'sum', 'Cow_Num': 'sum'}
+    milk_df = milk_df.groupby(milk_df['Date']).aggregate(aggregation_functions)
+    df = pd.merge(milk_df, weather_df, on="Date")
+    df = df.drop(['Lactation_Num'], axis=1)
+
+    result = df.to_json(orient="records")
+    parsed = json.loads(result)
+    return {"milk":items_milk, "weather": items_weather, "sum":parsed}
 
 if __name__ == "__main__":
     app.run(debug=True)
