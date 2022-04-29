@@ -1,1 +1,2872 @@
-[{"Date":1528934400000,"highest_temp":23.15,"lowest_temp":15.66,"avg_temp":19.5255102041,"highest_thi":70.9,"lowest_thi":59.4,"avg_thi":64.5193877551,"num_records_on_day":98},{"Date":1529366400000,"highest_temp":22.78,"lowest_temp":19.66,"avg_temp":21.7076,"highest_thi":68.6,"lowest_thi":64.6,"avg_thi":67.028,"num_records_on_day":25},{"Date":1529452800000,"highest_temp":23.47,"lowest_temp":14.17,"avg_temp":19.4704861111,"highest_thi":69.9,"lowest_thi":55.5,"avg_thi":64.4798611111,"num_records_on_day":144},{"Date":1529539200000,"highest_temp":23.99,"lowest_temp":13.61,"avg_temp":19.5315277778,"highest_thi":70.6,"lowest_thi":55.7,"avg_thi":64.5027777778,"num_records_on_day":144},{"Date":1529625600000,"highest_temp":24.92,"lowest_temp":10.75,"avg_temp":17.6176923077,"highest_thi":72.1,"lowest_thi":50.6,"avg_thi":61.5230769231,"num_records_on_day":130},{"Date":1529712000000,"highest_temp":23.39,"lowest_temp":17.91,"avg_temp":19.9875,"highest_thi":71.7,"lowest_thi":63.1,"avg_thi":66.29375,"num_records_on_day":48},{"Date":1529798400000,"highest_temp":22.87,"lowest_temp":18.28,"avg_temp":20.30875,"highest_thi":71.1,"lowest_thi":64.0,"avg_thi":67.3895833333,"num_records_on_day":48},{"Date":1529884800000,"highest_temp":21.29,"lowest_temp":14.75,"avg_temp":18.1866666667,"highest_thi":66.1,"lowest_thi":58.5,"avg_thi":62.93125,"num_records_on_day":48},{"Date":1529971200000,"highest_temp":26.0,"lowest_temp":10.03,"avg_temp":18.0995833333,"highest_thi":71.5,"lowest_thi":48.9,"avg_thi":61.5041666667,"num_records_on_day":48},{"Date":1530057600000,"highest_temp":24.24,"lowest_temp":18.31,"avg_temp":19.8433333333,"highest_thi":69.6,"lowest_thi":63.8,"avg_thi":65.8833333333,"num_records_on_day":48},{"Date":1530144000000,"highest_temp":25.65,"lowest_temp":19.78,"avg_temp":21.961875,"highest_thi":74.9,"lowest_thi":66.8,"avg_thi":70.1416666667,"num_records_on_day":48},{"Date":1530230400000,"highest_temp":28.97,"lowest_temp":18.06,"avg_temp":23.2970833333,"highest_thi":75.9,"lowest_thi":63.4,"avg_thi":70.4041666667,"num_records_on_day":48},{"Date":1530316800000,"highest_temp":32.7,"lowest_temp":18.13,"avg_temp":25.07875,"highest_thi":82.0,"lowest_thi":63.4,"avg_thi":72.6479166667,"num_records_on_day":48},{"Date":1530403200000,"highest_temp":34.31,"lowest_temp":21.7,"avg_temp":31.3033035714,"highest_thi":83.4,"lowest_thi":69.8,"avg_thi":80.1794642857,"num_records_on_day":112},{"Date":1530489600000,"highest_temp":34.35,"lowest_temp":23.45,"avg_temp":28.2346180556,"highest_thi":83.4,"lowest_thi":72.2,"avg_thi":77.634375,"num_records_on_day":288},{"Date":1530576000000,"highest_temp":30.44,"lowest_temp":21.44,"avg_temp":23.3456382979,"highest_thi":78.0,"lowest_thi":70.0,"avg_thi":72.3638297872,"num_records_on_day":188},{"Date":1530662400000,"highest_temp":33.03,"lowest_temp":18.24,"avg_temp":24.72625,"highest_thi":82.2,"lowest_thi":63.7,"avg_thi":72.68125,"num_records_on_day":48},{"Date":1530748800000,"highest_temp":30.7,"lowest_temp":22.61,"avg_temp":26.32,"highest_thi":81.8,"lowest_thi":71.4,"avg_thi":76.4020833333,"num_records_on_day":48},{"Date":1530835200000,"highest_temp":28.29,"lowest_temp":20.22,"avg_temp":23.4102083333,"highest_thi":78.8,"lowest_thi":65.5,"avg_thi":71.425,"num_records_on_day":48},{"Date":1530921600000,"highest_temp":24.58,"lowest_temp":13.42,"avg_temp":19.3260416667,"highest_thi":70.2,"lowest_thi":54.7,"avg_thi":63.6791666667,"num_records_on_day":48},{"Date":1531008000000,"highest_temp":27.95,"lowest_temp":14.46,"avg_temp":21.3322916667,"highest_thi":74.0,"lowest_thi":56.4,"avg_thi":66.4229166667,"num_records_on_day":48},{"Date":1531094400000,"highest_temp":30.88,"lowest_temp":16.88,"avg_temp":23.4173333333,"highest_thi":76.7,"lowest_thi":60.7,"avg_thi":69.2422222222,"num_records_on_day":45},{"Date":1531180800000,"highest_temp":29.94,"lowest_temp":18.02,"avg_temp":23.876875,"highest_thi":78.3,"lowest_thi":62.6,"avg_thi":70.5895833333,"num_records_on_day":48},{"Date":1531267200000,"highest_temp":25.94,"lowest_temp":17.24,"avg_temp":21.7489583333,"highest_thi":71.4,"lowest_thi":62.5,"avg_thi":67.1875,"num_records_on_day":48},{"Date":1531353600000,"highest_temp":28.42,"lowest_temp":13.34,"avg_temp":20.8935416667,"highest_thi":73.3,"lowest_thi":55.2,"avg_thi":65.3104166667,"num_records_on_day":48},{"Date":1531440000000,"highest_temp":30.24,"lowest_temp":14.73,"avg_temp":22.9579166667,"highest_thi":76.1,"lowest_thi":58.0,"avg_thi":68.50625,"num_records_on_day":48},{"Date":1531526400000,"highest_temp":31.56,"lowest_temp":22.78,"avg_temp":26.7041666667,"highest_thi":79.0,"lowest_thi":69.6,"avg_thi":74.1125,"num_records_on_day":48},{"Date":1531612800000,"highest_temp":31.15,"lowest_temp":20.29,"avg_temp":25.1610416667,"highest_thi":78.9,"lowest_thi":67.7,"avg_thi":73.3958333333,"num_records_on_day":48},{"Date":1531699200000,"highest_temp":33.67,"lowest_temp":20.15,"avg_temp":26.7785416667,"highest_thi":81.5,"lowest_thi":67.7,"avg_thi":75.2895833333,"num_records_on_day":48},{"Date":1531785600000,"highest_temp":27.36,"lowest_temp":21.39,"avg_temp":23.8302083333,"highest_thi":75.7,"lowest_thi":69.7,"avg_thi":72.4208333333,"num_records_on_day":48},{"Date":1531872000000,"highest_temp":24.09,"lowest_temp":17.36,"avg_temp":20.4572916667,"highest_thi":70.0,"lowest_thi":61.6,"avg_thi":65.9854166667,"num_records_on_day":48},{"Date":1531958400000,"highest_temp":26.57,"lowest_temp":12.76,"avg_temp":19.3516666667,"highest_thi":71.8,"lowest_thi":53.7,"avg_thi":63.31875,"num_records_on_day":48},{"Date":1532044800000,"highest_temp":29.54,"lowest_temp":15.38,"avg_temp":22.5633333333,"highest_thi":76.5,"lowest_thi":59.0,"avg_thi":68.2708333333,"num_records_on_day":48},{"Date":1532131200000,"highest_temp":26.36,"lowest_temp":18.52,"avg_temp":22.61125,"highest_thi":73.2,"lowest_thi":64.1,"avg_thi":69.03125,"num_records_on_day":48},{"Date":1532217600000,"highest_temp":27.73,"lowest_temp":18.46,"avg_temp":22.4064583333,"highest_thi":76.4,"lowest_thi":64.0,"avg_thi":69.7625,"num_records_on_day":48},{"Date":1532304000000,"highest_temp":26.46,"lowest_temp":22.42,"avg_temp":23.990625,"highest_thi":76.3,"lowest_thi":71.2,"avg_thi":73.4770833333,"num_records_on_day":48},{"Date":1532390400000,"highest_temp":25.58,"lowest_temp":22.64,"avg_temp":24.0029166667,"highest_thi":76.2,"lowest_thi":71.7,"avg_thi":73.9479166667,"num_records_on_day":48},{"Date":1532476800000,"highest_temp":24.58,"lowest_temp":21.13,"avg_temp":23.2016666667,"highest_thi":74.5,"lowest_thi":69.3,"avg_thi":72.7479166667,"num_records_on_day":48},{"Date":1532563200000,"highest_temp":28.37,"lowest_temp":19.56,"avg_temp":22.9527083333,"highest_thi":77.4,"lowest_thi":66.2,"avg_thi":70.9375,"num_records_on_day":48},{"Date":1532649600000,"highest_temp":26.87,"lowest_temp":20.21,"avg_temp":23.6691666667,"highest_thi":76.1,"lowest_thi":67.5,"avg_thi":71.83125,"num_records_on_day":48},{"Date":1532736000000,"highest_temp":25.92,"lowest_temp":18.52,"avg_temp":21.8277083333,"highest_thi":73.7,"lowest_thi":64.6,"avg_thi":68.9645833333,"num_records_on_day":48},{"Date":1532822400000,"highest_temp":24.96,"lowest_temp":18.02,"avg_temp":20.8416666667,"highest_thi":71.7,"lowest_thi":63.4,"avg_thi":67.0145833333,"num_records_on_day":48},{"Date":1532908800000,"highest_temp":25.38,"lowest_temp":16.39,"avg_temp":20.6504166667,"highest_thi":73.5,"lowest_thi":60.7,"avg_thi":67.2145833333,"num_records_on_day":48},{"Date":1532995200000,"highest_temp":26.46,"lowest_temp":18.33,"avg_temp":21.559375,"highest_thi":75.1,"lowest_thi":64.1,"avg_thi":68.7854166667,"num_records_on_day":48},{"Date":1533081600000,"highest_temp":27.75,"lowest_temp":22.06,"avg_temp":24.421875,"highest_thi":77.9,"lowest_thi":70.5,"avg_thi":73.525,"num_records_on_day":48},{"Date":1533168000000,"highest_temp":26.99,"lowest_temp":21.01,"avg_temp":24.0158333333,"highest_thi":76.2,"lowest_thi":69.2,"avg_thi":73.05,"num_records_on_day":48},{"Date":1533254400000,"highest_temp":25.24,"lowest_temp":21.08,"avg_temp":23.0154166667,"highest_thi":74.8,"lowest_thi":69.4,"avg_thi":71.9395833333,"num_records_on_day":48},{"Date":1533340800000,"highest_temp":28.84,"lowest_temp":18.53,"avg_temp":23.4075,"highest_thi":77.5,"lowest_thi":64.9,"avg_thi":71.6541666667,"num_records_on_day":48},{"Date":1533427200000,"highest_temp":30.94,"lowest_temp":18.32,"avg_temp":24.410625,"highest_thi":79.3,"lowest_thi":64.3,"avg_thi":72.5,"num_records_on_day":48},{"Date":1533513600000,"highest_temp":32.62,"lowest_temp":20.17,"avg_temp":26.2297916667,"highest_thi":80.5,"lowest_thi":67.6,"avg_thi":74.9479166667,"num_records_on_day":48},{"Date":1533600000000,"highest_temp":27.83,"lowest_temp":21.44,"avg_temp":24.565625,"highest_thi":78.2,"lowest_thi":69.3,"avg_thi":73.80625,"num_records_on_day":48},{"Date":1533686400000,"highest_temp":26.66,"lowest_temp":21.11,"avg_temp":23.2597916667,"highest_thi":77.6,"lowest_thi":69.5,"avg_thi":72.68125,"num_records_on_day":48},{"Date":1533772800000,"highest_temp":27.01,"lowest_temp":20.65,"avg_temp":23.1154166667,"highest_thi":74.9,"lowest_thi":68.4,"avg_thi":71.38125,"num_records_on_day":48},{"Date":1533859200000,"highest_temp":26.13,"lowest_temp":18.42,"avg_temp":22.038125,"highest_thi":74.4,"lowest_thi":64.3,"avg_thi":69.6083333333,"num_records_on_day":48},{"Date":1533945600000,"highest_temp":24.67,"lowest_temp":18.5,"avg_temp":20.2975,"highest_thi":73.9,"lowest_thi":64.4,"avg_thi":67.1875,"num_records_on_day":48},{"Date":1534032000000,"highest_temp":26.57,"lowest_temp":18.36,"avg_temp":21.32875,"highest_thi":76.1,"lowest_thi":64.2,"avg_thi":68.9020833333,"num_records_on_day":48},{"Date":1534118400000,"highest_temp":22.97,"lowest_temp":18.89,"avg_temp":21.0010416667,"highest_thi":72.1,"lowest_thi":65.5,"avg_thi":69.01875,"num_records_on_day":48},{"Date":1534204800000,"highest_temp":22.99,"lowest_temp":20.03,"avg_temp":21.3110416667,"highest_thi":72.4,"lowest_thi":67.7,"avg_thi":69.6791666667,"num_records_on_day":48},{"Date":1534291200000,"highest_temp":29.74,"lowest_temp":18.42,"avg_temp":23.3939583333,"highest_thi":79.5,"lowest_thi":64.3,"avg_thi":72.0,"num_records_on_day":48},{"Date":1534377600000,"highest_temp":29.77,"lowest_temp":18.58,"avg_temp":24.5964583333,"highest_thi":79.1,"lowest_thi":64.6,"avg_thi":73.15,"num_records_on_day":48},{"Date":1534464000000,"highest_temp":28.53,"lowest_temp":20.07,"avg_temp":23.771875,"highest_thi":79.2,"lowest_thi":67.6,"avg_thi":73.025,"num_records_on_day":48},{"Date":1534550400000,"highest_temp":23.69,"lowest_temp":19.68,"avg_temp":21.480625,"highest_thi":73.7,"lowest_thi":66.6,"avg_thi":69.7458333333,"num_records_on_day":48},{"Date":1534636800000,"highest_temp":24.68,"lowest_temp":18.39,"avg_temp":20.7525,"highest_thi":72.6,"lowest_thi":64.2,"avg_thi":67.75625,"num_records_on_day":48},{"Date":1534723200000,"highest_temp":25.65,"lowest_temp":18.21,"avg_temp":21.5252083333,"highest_thi":73.1,"lowest_thi":63.7,"avg_thi":68.44375,"num_records_on_day":48},{"Date":1534809600000,"highest_temp":23.22,"lowest_temp":20.32,"avg_temp":21.5135416667,"highest_thi":71.9,"lowest_thi":67.1,"avg_thi":69.14375,"num_records_on_day":48},{"Date":1534896000000,"highest_temp":24.15,"lowest_temp":19.39,"avg_temp":21.6672916667,"highest_thi":72.7,"lowest_thi":66.3,"avg_thi":69.5958333333,"num_records_on_day":48},{"Date":1534982400000,"highest_temp":23.74,"lowest_temp":14.24,"avg_temp":19.1810416667,"highest_thi":70.9,"lowest_thi":56.6,"avg_thi":64.6458333333,"num_records_on_day":48},{"Date":1535068800000,"highest_temp":26.97,"lowest_temp":14.38,"avg_temp":20.840625,"highest_thi":73.7,"lowest_thi":57.3,"avg_thi":66.525,"num_records_on_day":48},{"Date":1535155200000,"highest_temp":26.18,"lowest_temp":17.33,"avg_temp":21.589375,"highest_thi":74.0,"lowest_thi":62.0,"avg_thi":67.9958333333,"num_records_on_day":48},{"Date":1535241600000,"highest_temp":28.32,"lowest_temp":18.87,"avg_temp":22.9385416667,"highest_thi":77.7,"lowest_thi":64.9,"avg_thi":70.5854166667,"num_records_on_day":48},{"Date":1535328000000,"highest_temp":28.93,"lowest_temp":18.87,"avg_temp":23.7579166667,"highest_thi":79.9,"lowest_thi":65.1,"avg_thi":72.7625,"num_records_on_day":48},{"Date":1535414400000,"highest_temp":32.18,"lowest_temp":23.21,"avg_temp":27.1523913043,"highest_thi":81.6,"lowest_thi":72.7,"avg_thi":77.2065217391,"num_records_on_day":46},{"Date":1535500800000,"highest_temp":32.62,"lowest_temp":23.76,"avg_temp":27.275625,"highest_thi":81.8,"lowest_thi":73.2,"avg_thi":77.3291666667,"num_records_on_day":48},{"Date":1535587200000,"highest_temp":24.42,"lowest_temp":19.3,"avg_temp":21.9752083333,"highest_thi":74.6,"lowest_thi":65.3,"avg_thi":70.1875,"num_records_on_day":48},{"Date":1535673600000,"highest_temp":22.91,"lowest_temp":16.48,"avg_temp":19.55125,"highest_thi":71.4,"lowest_thi":61.2,"avg_thi":65.9291666667,"num_records_on_day":48},{"Date":1535760000000,"highest_temp":25.54,"lowest_temp":19.75,"avg_temp":21.925625,"highest_thi":74.2,"lowest_thi":66.5,"avg_thi":69.8666666667,"num_records_on_day":48},{"Date":1535846400000,"highest_temp":30.04,"lowest_temp":21.45,"avg_temp":24.8202083333,"highest_thi":80.5,"lowest_thi":69.6,"avg_thi":74.1020833333,"num_records_on_day":48},{"Date":1535932800000,"highest_temp":31.46,"lowest_temp":23.09,"avg_temp":26.50125,"highest_thi":81.6,"lowest_thi":72.5,"avg_thi":76.7270833333,"num_records_on_day":48},{"Date":1536019200000,"highest_temp":29.17,"lowest_temp":21.03,"avg_temp":24.5247916667,"highest_thi":79.4,"lowest_thi":69.2,"avg_thi":73.875,"num_records_on_day":48},{"Date":1536105600000,"highest_temp":33.16,"lowest_temp":21.17,"avg_temp":26.5675,"highest_thi":82.7,"lowest_thi":69.6,"avg_thi":76.2083333333,"num_records_on_day":48},{"Date":1536192000000,"highest_temp":29.07,"lowest_temp":21.99,"avg_temp":25.4110416667,"highest_thi":79.4,"lowest_thi":69.8,"avg_thi":75.3479166667,"num_records_on_day":48},{"Date":1536278400000,"highest_temp":23.87,"lowest_temp":18.45,"avg_temp":20.79375,"highest_thi":70.2,"lowest_thi":64.8,"avg_thi":67.5958333333,"num_records_on_day":48},{"Date":1536364800000,"highest_temp":19.56,"lowest_temp":14.98,"avg_temp":17.4397916667,"highest_thi":65.3,"lowest_thi":58.4,"avg_thi":61.9729166667,"num_records_on_day":48},{"Date":1536451200000,"highest_temp":17.62,"lowest_temp":12.16,"avg_temp":15.161875,"highest_thi":62.4,"lowest_thi":53.0,"avg_thi":58.2791666667,"num_records_on_day":48},{"Date":1536537600000,"highest_temp":17.08,"lowest_temp":10.58,"avg_temp":14.2091666667,"highest_thi":61.5,"lowest_thi":50.6,"avg_thi":56.8229166667,"num_records_on_day":48},{"Date":1536624000000,"highest_temp":21.78,"lowest_temp":15.65,"avg_temp":18.8610416667,"highest_thi":69.3,"lowest_thi":59.4,"avg_thi":64.69375,"num_records_on_day":48},{"Date":1536710400000,"highest_temp":24.05,"lowest_temp":18.38,"avg_temp":20.5083333333,"highest_thi":72.4,"lowest_thi":64.2,"avg_thi":67.6791666667,"num_records_on_day":48},{"Date":1536796800000,"highest_temp":28.1,"lowest_temp":19.31,"avg_temp":22.668125,"highest_thi":78.3,"lowest_thi":66.3,"avg_thi":71.3104166667,"num_records_on_day":48},{"Date":1536883200000,"highest_temp":27.49,"lowest_temp":20.32,"avg_temp":23.7485416667,"highest_thi":77.1,"lowest_thi":67.8,"avg_thi":72.65625,"num_records_on_day":48},{"Date":1536969600000,"highest_temp":28.89,"lowest_temp":20.57,"avg_temp":24.300625,"highest_thi":78.3,"lowest_thi":68.3,"avg_thi":73.2208333333,"num_records_on_day":48},{"Date":1537056000000,"highest_temp":29.82,"lowest_temp":18.45,"avg_temp":23.5941666667,"highest_thi":79.1,"lowest_thi":64.8,"avg_thi":71.9520833333,"num_records_on_day":48},{"Date":1537142400000,"highest_temp":24.97,"lowest_temp":18.55,"avg_temp":22.0547916667,"highest_thi":74.0,"lowest_thi":64.5,"avg_thi":69.8895833333,"num_records_on_day":48},{"Date":1537228800000,"highest_temp":27.1,"lowest_temp":19.58,"avg_temp":22.251875,"highest_thi":76.6,"lowest_thi":66.7,"avg_thi":70.70625,"num_records_on_day":48},{"Date":1537315200000,"highest_temp":22.88,"lowest_temp":17.63,"avg_temp":19.7733333333,"highest_thi":71.6,"lowest_thi":62.4,"avg_thi":66.3770833333,"num_records_on_day":48},{"Date":1537401600000,"highest_temp":23.5,"lowest_temp":13.49,"avg_temp":17.8333333333,"highest_thi":71.1,"lowest_thi":55.1,"avg_thi":62.4020833333,"num_records_on_day":48},{"Date":1537488000000,"highest_temp":24.66,"lowest_temp":20.08,"avg_temp":21.600625,"highest_thi":73.9,"lowest_thi":66.9,"avg_thi":69.4479166667,"num_records_on_day":48},{"Date":1537574400000,"highest_temp":22.25,"lowest_temp":13.59,"avg_temp":16.8854166667,"highest_thi":70.7,"lowest_thi":56.2,"avg_thi":61.4458333333,"num_records_on_day":48},{"Date":1537660800000,"highest_temp":19.32,"lowest_temp":9.94,"avg_temp":14.8622916667,"highest_thi":64.5,"lowest_thi":48.7,"avg_thi":57.3770833333,"num_records_on_day":48},{"Date":1537747200000,"highest_temp":20.88,"lowest_temp":9.71,"avg_temp":15.831875,"highest_thi":66.3,"lowest_thi":49.5,"avg_thi":58.9041666667,"num_records_on_day":48},{"Date":1537833600000,"highest_temp":20.27,"lowest_temp":13.44,"avg_temp":16.321875,"highest_thi":67.3,"lowest_thi":55.6,"avg_thi":60.5625,"num_records_on_day":48},{"Date":1537920000000,"highest_temp":23.09,"lowest_temp":17.67,"avg_temp":20.74125,"highest_thi":72.1,"lowest_thi":63.1,"avg_thi":68.3979166667,"num_records_on_day":48},{"Date":1538006400000,"highest_temp":18.19,"lowest_temp":12.53,"avg_temp":15.6435416667,"highest_thi":62.9,"lowest_thi":52.8,"avg_thi":58.8708333333,"num_records_on_day":48},{"Date":1538092800000,"highest_temp":20.79,"lowest_temp":13.44,"avg_temp":16.5472916667,"highest_thi":66.8,"lowest_thi":55.1,"avg_thi":60.56875,"num_records_on_day":48},{"Date":1538179200000,"highest_temp":18.76,"lowest_temp":12.92,"avg_temp":15.8679166667,"highest_thi":64.2,"lowest_thi":54.9,"avg_thi":59.3083333333,"num_records_on_day":48},{"Date":1538265600000,"highest_temp":16.5,"lowest_temp":10.18,"avg_temp":13.1508333333,"highest_thi":60.1,"lowest_thi":48.0,"avg_thi":54.94375,"num_records_on_day":48},{"Date":1538352000000,"highest_temp":17.13,"lowest_temp":14.54,"avg_temp":15.7102083333,"highest_thi":61.8,"lowest_thi":57.5,"avg_thi":59.38125,"num_records_on_day":48},{"Date":1538438400000,"highest_temp":21.71,"lowest_temp":15.02,"avg_temp":17.9670833333,"highest_thi":70.0,"lowest_thi":57.7,"avg_thi":63.4145833333,"num_records_on_day":48},{"Date":1538524800000,"highest_temp":20.46,"lowest_temp":13.5,"avg_temp":16.69125,"highest_thi":67.8,"lowest_thi":56.0,"avg_thi":61.1083333333,"num_records_on_day":48},{"Date":1538611200000,"highest_temp":20.56,"lowest_temp":14.46,"avg_temp":17.6579166667,"highest_thi":68.5,"lowest_thi":57.1,"avg_thi":62.925,"num_records_on_day":48},{"Date":1538697600000,"highest_temp":18.94,"lowest_temp":9.92,"avg_temp":13.8508333333,"highest_thi":63.2,"lowest_thi":48.1,"avg_thi":55.8666666667,"num_records_on_day":48},{"Date":1538784000000,"highest_temp":23.92,"lowest_temp":14.29,"avg_temp":18.0675,"highest_thi":72.9,"lowest_thi":56.4,"avg_thi":63.48125,"num_records_on_day":48},{"Date":1538870400000,"highest_temp":21.14,"lowest_temp":15.58,"avg_temp":19.0366666667,"highest_thi":69.1,"lowest_thi":59.2,"avg_thi":65.45625,"num_records_on_day":48},{"Date":1538956800000,"highest_temp":26.18,"lowest_temp":14.41,"avg_temp":19.009375,"highest_thi":76.0,"lowest_thi":57.3,"avg_thi":64.7604166667,"num_records_on_day":48},{"Date":1539043200000,"highest_temp":27.64,"lowest_temp":21.25,"avg_temp":23.914375,"highest_thi":77.3,"lowest_thi":69.3,"avg_thi":72.725,"num_records_on_day":48},{"Date":1539129600000,"highest_temp":27.11,"lowest_temp":20.07,"avg_temp":23.2266666667,"highest_thi":75.8,"lowest_thi":67.6,"avg_thi":71.4729166667,"num_records_on_day":48},{"Date":1539216000000,"highest_temp":23.17,"lowest_temp":17.8,"avg_temp":21.4202083333,"highest_thi":72.2,"lowest_thi":62.7,"avg_thi":69.44375,"num_records_on_day":48},{"Date":1539302400000,"highest_temp":17.35,"lowest_temp":8.86,"avg_temp":11.784375,"highest_thi":61.8,"lowest_thi":48.5,"avg_thi":53.3875,"num_records_on_day":48},{"Date":1539388800000,"highest_temp":11.08,"lowest_temp":7.0,"avg_temp":9.26375,"highest_thi":52.5,"lowest_thi":44.2,"avg_thi":48.9604166667,"num_records_on_day":48},{"Date":1539475200000,"highest_temp":16.62,"lowest_temp":7.78,"avg_temp":11.3266666667,"highest_thi":60.2,"lowest_thi":46.3,"avg_thi":52.0145833333,"num_records_on_day":48},{"Date":1539561600000,"highest_temp":17.48,"lowest_temp":9.68,"avg_temp":12.6697916667,"highest_thi":62.4,"lowest_thi":49.1,"avg_thi":54.575,"num_records_on_day":48},{"Date":1539648000000,"highest_temp":13.5,"lowest_temp":5.44,"avg_temp":8.7983333333,"highest_thi":56.0,"lowest_thi":43.1,"avg_thi":49.15625,"num_records_on_day":48},{"Date":1539734400000,"highest_temp":10.45,"lowest_temp":5.91,"avg_temp":8.66125,"highest_thi":51.1,"lowest_thi":42.5,"avg_thi":48.4708333333,"num_records_on_day":48},{"Date":1539820800000,"highest_temp":8.54,"lowest_temp":2.27,"avg_temp":4.5189583333,"highest_thi":48.0,"lowest_thi":37.4,"avg_thi":42.2375,"num_records_on_day":48},{"Date":1539907200000,"highest_temp":17.92,"lowest_temp":2.81,"avg_temp":8.8045833333,"highest_thi":61.6,"lowest_thi":38.0,"avg_thi":48.0125,"num_records_on_day":48},{"Date":1539993600000,"highest_temp":13.59,"lowest_temp":7.43,"avg_temp":11.67,"highest_thi":56.0,"lowest_thi":45.5,"avg_thi":53.3208333333,"num_records_on_day":48},{"Date":1540080000000,"highest_temp":10.44,"lowest_temp":2.51,"avg_temp":5.2464583333,"highest_thi":50.2,"lowest_thi":38.2,"avg_thi":43.0083333333,"num_records_on_day":48},{"Date":1540166400000,"highest_temp":10.92,"lowest_temp":3.96,"avg_temp":7.205625,"highest_thi":53.0,"lowest_thi":41.9,"avg_thi":46.5208333333,"num_records_on_day":48},{"Date":1540252800000,"highest_temp":12.83,"lowest_temp":7.53,"avg_temp":9.70625,"highest_thi":55.0,"lowest_thi":45.9,"avg_thi":49.93125,"num_records_on_day":48},{"Date":1540339200000,"highest_temp":7.84,"lowest_temp":4.48,"avg_temp":5.519375,"highest_thi":46.6,"lowest_thi":40.2,"avg_thi":42.6375,"num_records_on_day":48},{"Date":1540425600000,"highest_temp":6.48,"lowest_temp":3.21,"avg_temp":4.6508333333,"highest_thi":45.3,"lowest_thi":38.8,"avg_thi":41.9333333333,"num_records_on_day":48},{"Date":1540512000000,"highest_temp":9.5,"lowest_temp":5.15,"avg_temp":7.2316666667,"highest_thi":50.4,"lowest_thi":40.8,"avg_thi":45.89375,"num_records_on_day":48},{"Date":1540598400000,"highest_temp":8.37,"lowest_temp":5.63,"avg_temp":7.0302083333,"highest_thi":48.9,"lowest_thi":42.4,"avg_thi":45.2208333333,"num_records_on_day":48},{"Date":1540684800000,"highest_temp":10.19,"lowest_temp":5.06,"avg_temp":7.1814583333,"highest_thi":50.5,"lowest_thi":41.0,"avg_thi":44.9020833333,"num_records_on_day":48},{"Date":1540771200000,"highest_temp":10.17,"lowest_temp":6.91,"avg_temp":8.094375,"highest_thi":50.1,"lowest_thi":44.5,"avg_thi":46.825,"num_records_on_day":48},{"Date":1540857600000,"highest_temp":11.96,"lowest_temp":4.64,"avg_temp":7.4579166667,"highest_thi":53.8,"lowest_thi":40.7,"avg_thi":46.0458333333,"num_records_on_day":48},{"Date":1540944000000,"highest_temp":17.18,"lowest_temp":4.44,"avg_temp":10.4116666667,"highest_thi":61.7,"lowest_thi":40.9,"avg_thi":50.8208333333,"num_records_on_day":48},{"Date":1541030400000,"highest_temp":15.96,"lowest_temp":9.34,"avg_temp":11.5310416667,"highest_thi":60.0,"lowest_thi":48.5,"avg_thi":52.2666666667,"num_records_on_day":48},{"Date":1541116800000,"highest_temp":17.77,"lowest_temp":8.94,"avg_temp":14.1025,"highest_thi":62.7,"lowest_thi":47.1,"avg_thi":56.68125,"num_records_on_day":48},{"Date":1541203200000,"highest_temp":12.05,"lowest_temp":5.14,"avg_temp":7.2777083333,"highest_thi":52.8,"lowest_thi":41.6,"avg_thi":45.4979166667,"num_records_on_day":48},{"Date":1541289600000,"highest_temp":11.73,"lowest_temp":4.77,"avg_temp":7.6629166667,"highest_thi":53.1,"lowest_thi":40.4,"avg_thi":46.68125,"num_records_on_day":48},{"Date":1541376000000,"highest_temp":10.77,"lowest_temp":7.95,"avg_temp":9.333125,"highest_thi":51.6,"lowest_thi":47.7,"avg_thi":49.7791666667,"num_records_on_day":48},{"Date":1541462400000,"highest_temp":17.04,"lowest_temp":8.77,"avg_temp":11.8777083333,"highest_thi":61.2,"lowest_thi":48.1,"avg_thi":53.15,"num_records_on_day":48},{"Date":1541548800000,"highest_temp":14.05,"lowest_temp":8.24,"avg_temp":11.773125,"highest_thi":57.2,"lowest_thi":48.7,"avg_thi":53.60625,"num_records_on_day":48},{"Date":1541635200000,"highest_temp":9.09,"lowest_temp":5.77,"avg_temp":7.1902083333,"highest_thi":49.2,"lowest_thi":44.5,"avg_thi":46.7854166667,"num_records_on_day":48},{"Date":1541721600000,"highest_temp":9.01,"lowest_temp":3.66,"avg_temp":5.6177083333,"highest_thi":49.1,"lowest_thi":39.1,"avg_thi":42.7270833333,"num_records_on_day":48},{"Date":1541808000000,"highest_temp":7.87,"lowest_temp":-1.73,"avg_temp":3.4064583333,"highest_thi":46.4,"lowest_thi":30.2,"avg_thi":39.91875,"num_records_on_day":48},{"Date":1541894400000,"highest_temp":7.95,"lowest_temp":0.3,"avg_temp":3.07125,"highest_thi":47.6,"lowest_thi":35.2,"avg_thi":40.1895833333,"num_records_on_day":48},{"Date":1541980800000,"highest_temp":9.76,"lowest_temp":3.12,"avg_temp":6.366875,"highest_thi":51.3,"lowest_thi":38.7,"avg_thi":45.1770833333,"num_records_on_day":48},{"Date":1542067200000,"highest_temp":7.73,"lowest_temp":1.69,"avg_temp":5.6685416667,"highest_thi":48.4,"lowest_thi":35.5,"avg_thi":43.0458333333,"num_records_on_day":48},{"Date":1542153600000,"highest_temp":4.22,"lowest_temp":-1.8,"avg_temp":-0.1083333333,"highest_thi":41.3,"lowest_thi":30.0,"avg_thi":33.8958333333,"num_records_on_day":48},{"Date":1542240000000,"highest_temp":4.09,"lowest_temp":-2.22,"avg_temp":0.8833333333,"highest_thi":41.9,"lowest_thi":29.9,"avg_thi":34.9979166667,"num_records_on_day":48},{"Date":1542326400000,"highest_temp":6.08,"lowest_temp":0.9,"avg_temp":4.0504166667,"highest_thi":43.9,"lowest_thi":34.1,"avg_thi":39.8083333333,"num_records_on_day":48},{"Date":1542412800000,"highest_temp":7.2,"lowest_temp":2.76,"avg_temp":4.6645833333,"highest_thi":45.7,"lowest_thi":38.4,"avg_thi":41.5041666667,"num_records_on_day":48},{"Date":1542499200000,"highest_temp":6.41,"lowest_temp":2.14,"avg_temp":4.2304166667,"highest_thi":43.7,"lowest_thi":37.2,"avg_thi":40.6458333333,"num_records_on_day":48},{"Date":1542585600000,"highest_temp":8.83,"lowest_temp":4.01,"avg_temp":6.508125,"highest_thi":48.0,"lowest_thi":39.5,"avg_thi":43.9875,"num_records_on_day":48},{"Date":1542672000000,"highest_temp":7.28,"lowest_temp":1.33,"avg_temp":5.2895833333,"highest_thi":45.3,"lowest_thi":36.7,"avg_thi":41.8083333333,"num_records_on_day":48},{"Date":1542758400000,"highest_temp":5.49,"lowest_temp":-2.47,"avg_temp":1.8854166667,"highest_thi":42.5,"lowest_thi":31.6,"avg_thi":37.5145833333,"num_records_on_day":48},{"Date":1542844800000,"highest_temp":3.65,"lowest_temp":-6.63,"avg_temp":-2.3533333333,"highest_thi":39.7,"lowest_thi":22.1,"avg_thi":30.3166666667,"num_records_on_day":48},{"Date":1542931200000,"highest_temp":6.51,"lowest_temp":-1.71,"avg_temp":2.1347916667,"highest_thi":44.5,"lowest_thi":29.3,"avg_thi":37.0020833333,"num_records_on_day":48},{"Date":1543017600000,"highest_temp":6.57,"lowest_temp":2.8,"avg_temp":4.984375,"highest_thi":44.6,"lowest_thi":39.1,"avg_thi":42.7354166667,"num_records_on_day":48},{"Date":1543104000000,"highest_temp":10.13,"lowest_temp":5.7,"avg_temp":8.00375,"highest_thi":50.3,"lowest_thi":42.2,"avg_thi":46.4333333333,"num_records_on_day":48},{"Date":1543190400000,"highest_temp":9.45,"lowest_temp":5.16,"avg_temp":7.3727083333,"highest_thi":49.2,"lowest_thi":41.2,"avg_thi":45.3520833333,"num_records_on_day":48},{"Date":1543276800000,"highest_temp":8.66,"lowest_temp":2.33,"avg_temp":4.7808333333,"highest_thi":47.3,"lowest_thi":36.1,"avg_thi":40.6208333333,"num_records_on_day":48},{"Date":1543363200000,"highest_temp":4.95,"lowest_temp":0.37,"avg_temp":2.3152083333,"highest_thi":40.4,"lowest_thi":33.8,"avg_thi":36.7291666667,"num_records_on_day":48},{"Date":1543449600000,"highest_temp":4.9,"lowest_temp":2.61,"avg_temp":3.615625,"highest_thi":41.2,"lowest_thi":36.9,"avg_thi":39.0833333333,"num_records_on_day":48},{"Date":1543536000000,"highest_temp":6.97,"lowest_temp":3.62,"avg_temp":5.4495833333,"highest_thi":44.6,"lowest_thi":39.3,"avg_thi":42.2875,"num_records_on_day":48},{"Date":1543622400000,"highest_temp":7.42,"lowest_temp":2.88,"avg_temp":5.2275,"highest_thi":45.6,"lowest_thi":37.2,"avg_thi":41.8833333333,"num_records_on_day":48},{"Date":1543708800000,"highest_temp":11.79,"lowest_temp":4.26,"avg_temp":7.7272916667,"highest_thi":53.5,"lowest_thi":40.2,"avg_thi":46.1395833333,"num_records_on_day":48},{"Date":1543795200000,"highest_temp":11.09,"lowest_temp":3.19,"avg_temp":7.9085416667,"highest_thi":52.1,"lowest_thi":38.1,"avg_thi":46.7145833333,"num_records_on_day":48},{"Date":1543881600000,"highest_temp":6.16,"lowest_temp":0.34,"avg_temp":3.1433333333,"highest_thi":44.0,"lowest_thi":34.3,"avg_thi":38.2625,"num_records_on_day":48},{"Date":1543968000000,"highest_temp":5.5,"lowest_temp":2.36,"avg_temp":4.0835416667,"highest_thi":43.0,"lowest_thi":36.7,"avg_thi":39.9583333333,"num_records_on_day":48},{"Date":1544054400000,"highest_temp":5.86,"lowest_temp":1.94,"avg_temp":4.1264583333,"highest_thi":44.0,"lowest_thi":37.0,"avg_thi":40.6520833333,"num_records_on_day":48},{"Date":1544140800000,"highest_temp":5.17,"lowest_temp":-2.26,"avg_temp":1.2279166667,"highest_thi":42.3,"lowest_thi":29.8,"avg_thi":35.825,"num_records_on_day":48},{"Date":1544227200000,"highest_temp":5.41,"lowest_temp":0.47,"avg_temp":3.1420833333,"highest_thi":41.9,"lowest_thi":34.4,"avg_thi":38.7833333333,"num_records_on_day":48},{"Date":1544313600000,"highest_temp":6.6,"lowest_temp":1.05,"avg_temp":4.330625,"highest_thi":45.9,"lowest_thi":36.3,"avg_thi":40.9166666667,"num_records_on_day":48},{"Date":1544400000000,"highest_temp":6.32,"lowest_temp":2.69,"avg_temp":4.8472916667,"highest_thi":44.3,"lowest_thi":38.5,"avg_thi":41.75,"num_records_on_day":48},{"Date":1544486400000,"highest_temp":5.65,"lowest_temp":2.05,"avg_temp":4.2214583333,"highest_thi":44.8,"lowest_thi":37.7,"avg_thi":41.1333333333,"num_records_on_day":48},{"Date":1544572800000,"highest_temp":6.85,"lowest_temp":2.2,"avg_temp":4.4989583333,"highest_thi":45.4,"lowest_thi":36.9,"avg_thi":40.8291666667,"num_records_on_day":48},{"Date":1544659200000,"highest_temp":6.09,"lowest_temp":2.89,"avg_temp":4.6922916667,"highest_thi":44.7,"lowest_thi":38.4,"avg_thi":41.6875,"num_records_on_day":48},{"Date":1544745600000,"highest_temp":9.25,"lowest_temp":3.26,"avg_temp":6.1802083333,"highest_thi":49.5,"lowest_thi":39.1,"avg_thi":44.0833333333,"num_records_on_day":48},{"Date":1544832000000,"highest_temp":9.48,"lowest_temp":5.05,"avg_temp":7.153125,"highest_thi":49.6,"lowest_thi":41.8,"avg_thi":45.4,"num_records_on_day":48},{"Date":1544918400000,"highest_temp":7.44,"lowest_temp":4.41,"avg_temp":6.1229166667,"highest_thi":45.7,"lowest_thi":40.0,"avg_thi":43.1895833333,"num_records_on_day":48},{"Date":1545004800000,"highest_temp":7.15,"lowest_temp":1.74,"avg_temp":4.9647916667,"highest_thi":44.4,"lowest_thi":35.3,"avg_thi":41.3083333333,"num_records_on_day":48},{"Date":1545091200000,"highest_temp":4.17,"lowest_temp":-3.41,"avg_temp":-0.7,"highest_thi":40.9,"lowest_thi":29.4,"avg_thi":33.44375,"num_records_on_day":48},{"Date":1545177600000,"highest_temp":7.67,"lowest_temp":0.58,"avg_temp":3.9002083333,"highest_thi":47.5,"lowest_thi":33.8,"avg_thi":40.15625,"num_records_on_day":48},{"Date":1545264000000,"highest_temp":9.81,"lowest_temp":2.41,"avg_temp":6.0014583333,"highest_thi":50.7,"lowest_thi":38.2,"avg_thi":44.45625,"num_records_on_day":48},{"Date":1545350400000,"highest_temp":18.09,"lowest_temp":6.64,"avg_temp":13.2579166667,"highest_thi":63.2,"lowest_thi":43.9,"avg_thi":55.6375,"num_records_on_day":48},{"Date":1545436800000,"highest_temp":8.68,"lowest_temp":0.58,"avg_temp":3.1085416667,"highest_thi":47.6,"lowest_thi":33.7,"avg_thi":38.0583333333,"num_records_on_day":48},{"Date":1545523200000,"highest_temp":6.65,"lowest_temp":0.69,"avg_temp":3.5972916667,"highest_thi":44.6,"lowest_thi":35.3,"avg_thi":39.6375,"num_records_on_day":48},{"Date":1545609600000,"highest_temp":6.99,"lowest_temp":1.97,"avg_temp":5.1370833333,"highest_thi":44.9,"lowest_thi":36.6,"avg_thi":41.9166666667,"num_records_on_day":48},{"Date":1545696000000,"highest_temp":6.12,"lowest_temp":1.35,"avg_temp":3.538125,"highest_thi":43.9,"lowest_thi":36.3,"avg_thi":39.3583333333,"num_records_on_day":48},{"Date":1545782400000,"highest_temp":6.9,"lowest_temp":1.81,"avg_temp":4.543125,"highest_thi":45.0,"lowest_thi":36.3,"avg_thi":41.05625,"num_records_on_day":48},{"Date":1545868800000,"highest_temp":6.29,"lowest_temp":1.59,"avg_temp":4.1585416667,"highest_thi":44.5,"lowest_thi":35.6,"avg_thi":40.4229166667,"num_records_on_day":48},{"Date":1545955200000,"highest_temp":11.71,"lowest_temp":4.64,"avg_temp":7.5427083333,"highest_thi":53.1,"lowest_thi":41.6,"avg_thi":46.5041666667,"num_records_on_day":48},{"Date":1546041600000,"highest_temp":11.8,"lowest_temp":0.22,"avg_temp":5.396875,"highest_thi":53.2,"lowest_thi":34.0,"avg_thi":42.375,"num_records_on_day":48},{"Date":1546128000000,"highest_temp":6.3,"lowest_temp":0.52,"avg_temp":3.9914583333,"highest_thi":45.0,"lowest_thi":35.1,"avg_thi":40.14375,"num_records_on_day":48},{"Date":1546214400000,"highest_temp":6.88,"lowest_temp":3.22,"avg_temp":5.074375,"highest_thi":45.0,"lowest_thi":38.3,"avg_thi":41.98125,"num_records_on_day":48},{"Date":1546300800000,"highest_temp":12.22,"lowest_temp":2.09,"avg_temp":6.3258333333,"highest_thi":54.0,"lowest_thi":36.8,"avg_thi":44.1083333333,"num_records_on_day":48},{"Date":1546387200000,"highest_temp":5.39,"lowest_temp":-0.79,"avg_temp":2.4979166667,"highest_thi":42.8,"lowest_thi":32.9,"avg_thi":37.8395833333,"num_records_on_day":48},{"Date":1546473600000,"highest_temp":6.14,"lowest_temp":1.42,"avg_temp":3.7845833333,"highest_thi":43.6,"lowest_thi":36.7,"avg_thi":39.91875,"num_records_on_day":48},{"Date":1546560000000,"highest_temp":8.65,"lowest_temp":2.67,"avg_temp":5.32125,"highest_thi":49.4,"lowest_thi":38.3,"avg_thi":43.2145833333,"num_records_on_day":48},{"Date":1546646400000,"highest_temp":7.15,"lowest_temp":3.16,"avg_temp":5.3502083333,"highest_thi":45.4,"lowest_thi":37.8,"avg_thi":42.4291666667,"num_records_on_day":48},{"Date":1546732800000,"highest_temp":7.94,"lowest_temp":0.15,"avg_temp":3.9589583333,"highest_thi":46.0,"lowest_thi":33.9,"avg_thi":40.0104166667,"num_records_on_day":48},{"Date":1546819200000,"highest_temp":4.42,"lowest_temp":-3.02,"avg_temp":1.4777083333,"highest_thi":42.6,"lowest_thi":29.5,"avg_thi":36.3583333333,"num_records_on_day":48},{"Date":1546905600000,"highest_temp":7.44,"lowest_temp":3.79,"avg_temp":5.26,"highest_thi":46.3,"lowest_thi":40.1,"avg_thi":42.7354166667,"num_records_on_day":48},{"Date":1546992000000,"highest_temp":8.38,"lowest_temp":-0.13,"avg_temp":3.5891666667,"highest_thi":46.9,"lowest_thi":34.1,"avg_thi":39.6270833333,"num_records_on_day":48},{"Date":1547078400000,"highest_temp":3.46,"lowest_temp":-3.02,"avg_temp":-0.1935416667,"highest_thi":38.9,"lowest_thi":27.8,"avg_thi":32.9666666667,"num_records_on_day":48},{"Date":1547164800000,"highest_temp":4.98,"lowest_temp":-7.0,"avg_temp":-0.7810416667,"highest_thi":42.4,"lowest_thi":21.7,"avg_thi":31.8083333333,"num_records_on_day":48},{"Date":1547251200000,"highest_temp":5.8,"lowest_temp":1.72,"avg_temp":4.1214583333,"highest_thi":42.8,"lowest_thi":36.1,"avg_thi":39.9479166667,"num_records_on_day":48},{"Date":1547337600000,"highest_temp":6.85,"lowest_temp":-0.08,"avg_temp":3.7583333333,"highest_thi":43.9,"lowest_thi":31.0,"avg_thi":39.1854166667,"num_records_on_day":48},{"Date":1547424000000,"highest_temp":6.45,"lowest_temp":1.78,"avg_temp":4.6310416667,"highest_thi":43.6,"lowest_thi":36.0,"avg_thi":40.6916666667,"num_records_on_day":48},{"Date":1547510400000,"highest_temp":6.28,"lowest_temp":2.06,"avg_temp":4.0197916667,"highest_thi":44.1,"lowest_thi":36.0,"avg_thi":39.8645833333,"num_records_on_day":48},{"Date":1547596800000,"highest_temp":5.76,"lowest_temp":1.24,"avg_temp":3.8883333333,"highest_thi":45.3,"lowest_thi":36.6,"avg_thi":40.49375,"num_records_on_day":48},{"Date":1547683200000,"highest_temp":6.23,"lowest_temp":2.13,"avg_temp":4.3110416667,"highest_thi":44.3,"lowest_thi":36.2,"avg_thi":40.3625,"num_records_on_day":48},{"Date":1547769600000,"highest_temp":6.08,"lowest_temp":2.13,"avg_temp":4.24,"highest_thi":44.2,"lowest_thi":36.7,"avg_thi":40.75,"num_records_on_day":48},{"Date":1547856000000,"highest_temp":5.81,"lowest_temp":0.83,"avg_temp":3.8214583333,"highest_thi":43.4,"lowest_thi":32.7,"avg_thi":39.80625,"num_records_on_day":48},{"Date":1547942400000,"highest_temp":6.13,"lowest_temp":-6.22,"avg_temp":0.8514583333,"highest_thi":43.3,"lowest_thi":22.3,"avg_thi":34.16875,"num_records_on_day":48},{"Date":1548028800000,"highest_temp":1.43,"lowest_temp":-10.8,"avg_temp":-6.4683333333,"highest_thi":35.5,"lowest_thi":12.3,"avg_thi":20.6229166667,"num_records_on_day":48},{"Date":1548115200000,"highest_temp":7.1,"lowest_temp":-4.17,"avg_temp":3.134375,"highest_thi":44.3,"lowest_thi":24.5,"avg_thi":38.2166666667,"num_records_on_day":48},{"Date":1548201600000,"highest_temp":5.81,"lowest_temp":3.24,"avg_temp":4.6760416667,"highest_thi":44.2,"lowest_thi":39.8,"avg_thi":41.9333333333,"num_records_on_day":48},{"Date":1548288000000,"highest_temp":8.19,"lowest_temp":-0.19,"avg_temp":5.463125,"highest_thi":46.8,"lowest_thi":33.4,"avg_thi":42.1,"num_records_on_day":48},{"Date":1548374400000,"highest_temp":5.9,"lowest_temp":-0.64,"avg_temp":2.3716666667,"highest_thi":43.8,"lowest_thi":33.6,"avg_thi":38.2791666667,"num_records_on_day":48},{"Date":1548460800000,"highest_temp":5.59,"lowest_temp":0.37,"avg_temp":3.3620833333,"highest_thi":43.2,"lowest_thi":33.3,"avg_thi":39.3125,"num_records_on_day":48},{"Date":1548547200000,"highest_temp":6.09,"lowest_temp":1.98,"avg_temp":4.1577083333,"highest_thi":43.7,"lowest_thi":37.0,"avg_thi":40.8895833333,"num_records_on_day":48},{"Date":1548633600000,"highest_temp":8.21,"lowest_temp":2.06,"avg_temp":4.5795833333,"highest_thi":46.0,"lowest_thi":34.4,"avg_thi":40.4708333333,"num_records_on_day":48},{"Date":1548720000000,"highest_temp":6.07,"lowest_temp":2.8,"avg_temp":4.478125,"highest_thi":43.7,"lowest_thi":36.8,"avg_thi":41.2729166667,"num_records_on_day":48},{"Date":1548806400000,"highest_temp":5.42,"lowest_temp":-9.97,"avg_temp":0.4470833333,"highest_thi":42.4,"lowest_thi":17.9,"avg_thi":34.0125,"num_records_on_day":48},{"Date":1548892800000,"highest_temp":4.91,"lowest_temp":-8.97,"avg_temp":-2.7529166667,"highest_thi":40.7,"lowest_thi":17.6,"avg_thi":27.7958333333,"num_records_on_day":48},{"Date":1548979200000,"highest_temp":7.17,"lowest_temp":-2.31,"avg_temp":3.2310416667,"highest_thi":43.9,"lowest_thi":28.7,"avg_thi":38.1854166667,"num_records_on_day":48},{"Date":1549065600000,"highest_temp":5.61,"lowest_temp":1.43,"avg_temp":4.0291666667,"highest_thi":43.8,"lowest_thi":33.9,"avg_thi":40.4375,"num_records_on_day":48},{"Date":1549152000000,"highest_temp":11.22,"lowest_temp":4.14,"avg_temp":7.1672916667,"highest_thi":52.9,"lowest_thi":40.0,"avg_thi":45.59375,"num_records_on_day":48},{"Date":1549238400000,"highest_temp":17.34,"lowest_temp":7.09,"avg_temp":11.1929166667,"highest_thi":61.2,"lowest_thi":46.2,"avg_thi":52.4041666667,"num_records_on_day":48},{"Date":1549324800000,"highest_temp":13.11,"lowest_temp":3.28,"avg_temp":9.3564583333,"highest_thi":55.7,"lowest_thi":38.3,"avg_thi":49.3854166667,"num_records_on_day":48},{"Date":1549411200000,"highest_temp":6.52,"lowest_temp":2.63,"avg_temp":5.026875,"highest_thi":44.6,"lowest_thi":37.5,"avg_thi":41.8770833333,"num_records_on_day":48},{"Date":1549497600000,"highest_temp":10.8,"lowest_temp":3.46,"avg_temp":7.0122916667,"highest_thi":51.3,"lowest_thi":38.0,"avg_thi":44.5041666667,"num_records_on_day":48},{"Date":1549584000000,"highest_temp":10.95,"lowest_temp":-1.31,"avg_temp":5.8504166667,"highest_thi":51.6,"lowest_thi":34.0,"avg_thi":43.98125,"num_records_on_day":48},{"Date":1549670400000,"highest_temp":4.04,"lowest_temp":-4.08,"avg_temp":-0.4245833333,"highest_thi":41.9,"lowest_thi":29.1,"avg_thi":34.0458333333,"num_records_on_day":48},{"Date":1549756800000,"highest_temp":6.6,"lowest_temp":1.96,"avg_temp":4.431875,"highest_thi":46.1,"lowest_thi":37.3,"avg_thi":41.3020833333,"num_records_on_day":48},{"Date":1549843200000,"highest_temp":6.44,"lowest_temp":2.81,"avg_temp":4.8502083333,"highest_thi":44.9,"lowest_thi":38.5,"avg_thi":42.3145833333,"num_records_on_day":48},{"Date":1549929600000,"highest_temp":6.34,"lowest_temp":2.79,"avg_temp":4.5052083333,"highest_thi":44.2,"lowest_thi":38.8,"avg_thi":41.1958333333,"num_records_on_day":48},{"Date":1550016000000,"highest_temp":6.83,"lowest_temp":1.89,"avg_temp":4.3702083333,"highest_thi":44.8,"lowest_thi":37.1,"avg_thi":40.9604166667,"num_records_on_day":48},{"Date":1550102400000,"highest_temp":7.12,"lowest_temp":1.18,"avg_temp":4.9185416667,"highest_thi":47.1,"lowest_thi":34.6,"avg_thi":42.2416666667,"num_records_on_day":48},{"Date":1550188800000,"highest_temp":9.66,"lowest_temp":4.22,"avg_temp":6.4497916667,"highest_thi":50.7,"lowest_thi":42.1,"avg_thi":46.0458333333,"num_records_on_day":48},{"Date":1550275200000,"highest_temp":5.9,"lowest_temp":0.48,"avg_temp":3.1922916667,"highest_thi":45.1,"lowest_thi":35.3,"avg_thi":39.5895833333,"num_records_on_day":48},{"Date":1550361600000,"highest_temp":6.91,"lowest_temp":3.02,"avg_temp":4.8879166667,"highest_thi":44.8,"lowest_thi":38.6,"avg_thi":41.9,"num_records_on_day":48},{"Date":1550448000000,"highest_temp":6.87,"lowest_temp":2.19,"avg_temp":4.20375,"highest_thi":45.3,"lowest_thi":36.5,"avg_thi":40.11875,"num_records_on_day":48},{"Date":1550534400000,"highest_temp":6.5,"lowest_temp":-2.26,"avg_temp":3.9410416667,"highest_thi":45.0,"lowest_thi":30.1,"avg_thi":39.725,"num_records_on_day":48},{"Date":1550620800000,"highest_temp":5.23,"lowest_temp":0.41,"avg_temp":3.828125,"highest_thi":42.8,"lowest_thi":33.6,"avg_thi":39.7916666667,"num_records_on_day":48},{"Date":1550707200000,"highest_temp":6.73,"lowest_temp":3.5,"avg_temp":4.9677083333,"highest_thi":45.7,"lowest_thi":39.0,"avg_thi":42.2791666667,"num_records_on_day":48},{"Date":1550793600000,"highest_temp":6.31,"lowest_temp":3.21,"avg_temp":4.52125,"highest_thi":44.5,"lowest_thi":38.9,"avg_thi":41.6229166667,"num_records_on_day":48},{"Date":1550880000000,"highest_temp":7.94,"lowest_temp":3.31,"avg_temp":5.4547916667,"highest_thi":48.0,"lowest_thi":38.7,"avg_thi":43.1854166667,"num_records_on_day":48},{"Date":1550966400000,"highest_temp":9.29,"lowest_temp":3.09,"avg_temp":5.7291666667,"highest_thi":49.0,"lowest_thi":39.3,"avg_thi":43.28125,"num_records_on_day":48},{"Date":1551052800000,"highest_temp":5.86,"lowest_temp":-2.98,"avg_temp":0.7427083333,"highest_thi":44.6,"lowest_thi":31.7,"avg_thi":36.76875,"num_records_on_day":48},{"Date":1551139200000,"highest_temp":5.47,"lowest_temp":-2.48,"avg_temp":0.8477083333,"highest_thi":42.8,"lowest_thi":31.8,"avg_thi":35.925,"num_records_on_day":48},{"Date":1551225600000,"highest_temp":5.33,"lowest_temp":0.02,"avg_temp":3.216875,"highest_thi":43.0,"lowest_thi":33.7,"avg_thi":38.9854166667,"num_records_on_day":48},{"Date":1551312000000,"highest_temp":7.4,"lowest_temp":0.76,"avg_temp":3.8854166667,"highest_thi":44.8,"lowest_thi":34.9,"avg_thi":39.5354166667,"num_records_on_day":48},{"Date":1551398400000,"highest_temp":6.95,"lowest_temp":1.13,"avg_temp":4.5122916667,"highest_thi":46.2,"lowest_thi":35.1,"avg_thi":41.1520833333,"num_records_on_day":48},{"Date":1551484800000,"highest_temp":8.32,"lowest_temp":4.35,"avg_temp":6.1208333333,"highest_thi":47.3,"lowest_thi":41.0,"avg_thi":43.9958333333,"num_records_on_day":48},{"Date":1551571200000,"highest_temp":7.45,"lowest_temp":1.9,"avg_temp":4.7258333333,"highest_thi":46.1,"lowest_thi":36.0,"avg_thi":41.3270833333,"num_records_on_day":48},{"Date":1551657600000,"highest_temp":6.53,"lowest_temp":-1.14,"avg_temp":3.9195833333,"highest_thi":44.2,"lowest_thi":33.6,"avg_thi":40.14375,"num_records_on_day":48},{"Date":1551744000000,"highest_temp":6.72,"lowest_temp":-4.26,"avg_temp":1.63875,"highest_thi":44.2,"lowest_thi":26.8,"avg_thi":36.3729166667,"num_records_on_day":48},{"Date":1551830400000,"highest_temp":5.62,"lowest_temp":-6.11,"avg_temp":-1.1302083333,"highest_thi":43.3,"lowest_thi":25.4,"avg_thi":32.6354166667,"num_records_on_day":48},{"Date":1551916800000,"highest_temp":5.26,"lowest_temp":-5.14,"avg_temp":1.3070833333,"highest_thi":41.8,"lowest_thi":27.7,"avg_thi":36.1125,"num_records_on_day":48},{"Date":1552003200000,"highest_temp":7.2,"lowest_temp":-2.58,"avg_temp":2.8995833333,"highest_thi":46.9,"lowest_thi":27.4,"avg_thi":38.4833333333,"num_records_on_day":48},{"Date":1552089600000,"highest_temp":8.69,"lowest_temp":1.43,"avg_temp":4.9310416667,"highest_thi":49.6,"lowest_thi":35.4,"avg_thi":42.4645833333,"num_records_on_day":48},{"Date":1552176000000,"highest_temp":7.83,"lowest_temp":2.45,"avg_temp":5.1972916667,"highest_thi":46.8,"lowest_thi":37.9,"avg_thi":43.2604166667,"num_records_on_day":48},{"Date":1552262400000,"highest_temp":7.16,"lowest_temp":2.69,"avg_temp":4.7339583333,"highest_thi":45.0,"lowest_thi":40.1,"avg_thi":42.5958333333,"num_records_on_day":48},{"Date":1552348800000,"highest_temp":5.85,"lowest_temp":0.54,"avg_temp":2.6558333333,"highest_thi":44.5,"lowest_thi":35.8,"avg_thi":39.0520833333,"num_records_on_day":48},{"Date":1552435200000,"highest_temp":9.0,"lowest_temp":2.75,"avg_temp":5.4585416667,"highest_thi":50.5,"lowest_thi":37.3,"avg_thi":43.6416666667,"num_records_on_day":48},{"Date":1552521600000,"highest_temp":16.81,"lowest_temp":7.21,"avg_temp":11.0289583333,"highest_thi":60.7,"lowest_thi":47.2,"avg_thi":52.8708333333,"num_records_on_day":48},{"Date":1552608000000,"highest_temp":16.86,"lowest_temp":8.86,"avg_temp":14.06625,"highest_thi":60.7,"lowest_thi":48.9,"avg_thi":57.0479166667,"num_records_on_day":48},{"Date":1552694400000,"highest_temp":10.05,"lowest_temp":-0.2,"avg_temp":3.0727083333,"highest_thi":50.4,"lowest_thi":33.2,"avg_thi":39.93125,"num_records_on_day":48},{"Date":1552780800000,"highest_temp":5.76,"lowest_temp":0.43,"avg_temp":2.6864583333,"highest_thi":44.6,"lowest_thi":36.6,"avg_thi":39.3458333333,"num_records_on_day":48},{"Date":1552867200000,"highest_temp":7.92,"lowest_temp":1.84,"avg_temp":4.264375,"highest_thi":46.2,"lowest_thi":35.7,"avg_thi":41.1979166667,"num_records_on_day":48},{"Date":1552953600000,"highest_temp":7.32,"lowest_temp":3.13,"avg_temp":5.083125,"highest_thi":46.9,"lowest_thi":36.9,"avg_thi":42.1208333333,"num_records_on_day":48},{"Date":1553040000000,"highest_temp":12.57,"lowest_temp":2.49,"avg_temp":6.7864583333,"highest_thi":55.2,"lowest_thi":38.0,"avg_thi":45.7395833333,"num_records_on_day":48},{"Date":1553126400000,"highest_temp":9.53,"lowest_temp":5.51,"avg_temp":7.533125,"highest_thi":51.2,"lowest_thi":42.9,"avg_thi":47.60625,"num_records_on_day":48},{"Date":1553212800000,"highest_temp":7.98,"lowest_temp":2.93,"avg_temp":5.3739583333,"highest_thi":45.9,"lowest_thi":38.2,"avg_thi":42.1291666667,"num_records_on_day":48},{"Date":1553299200000,"highest_temp":5.66,"lowest_temp":-1.67,"avg_temp":2.2222916667,"highest_thi":45.5,"lowest_thi":32.1,"avg_thi":38.0208333333,"num_records_on_day":48},{"Date":1553385600000,"highest_temp":10.18,"lowest_temp":2.6,"avg_temp":6.2260416667,"highest_thi":52.1,"lowest_thi":38.9,"avg_thi":45.5145833333,"num_records_on_day":48},{"Date":1553472000000,"highest_temp":8.55,"lowest_temp":2.89,"avg_temp":4.9945833333,"highest_thi":48.0,"lowest_thi":39.3,"avg_thi":43.75625,"num_records_on_day":48},{"Date":1553558400000,"highest_temp":5.53,"lowest_temp":0.23,"avg_temp":3.7135416667,"highest_thi":46.3,"lowest_thi":36.2,"avg_thi":42.0958333333,"num_records_on_day":48},{"Date":1553644800000,"highest_temp":10.22,"lowest_temp":1.09,"avg_temp":5.3904166667,"highest_thi":53.2,"lowest_thi":35.3,"avg_thi":44.1958333333,"num_records_on_day":48},{"Date":1553731200000,"highest_temp":14.71,"lowest_temp":3.66,"avg_temp":7.9014583333,"highest_thi":58.1,"lowest_thi":43.0,"avg_thi":49.4916666667,"num_records_on_day":48},{"Date":1553817600000,"highest_temp":12.49,"lowest_temp":5.4,"avg_temp":9.2495833333,"highest_thi":55.2,"lowest_thi":42.1,"avg_thi":49.3333333333,"num_records_on_day":48},{"Date":1553904000000,"highest_temp":19.0,"lowest_temp":7.3,"avg_temp":11.7797916667,"highest_thi":63.8,"lowest_thi":45.2,"avg_thi":53.0,"num_records_on_day":48},{"Date":1553990400000,"highest_temp":18.08,"lowest_temp":4.07,"avg_temp":13.7909090909,"highest_thi":62.7,"lowest_thi":39.9,"avg_thi":55.8454545455,"num_records_on_day":22}]
+[
+    {
+        "Date": 1528948800,
+        "highest_temp": 23.15,
+        "lowest_temp": 15.66,
+        "avg_temp": 19.5255102041,
+        "highest_thi": 70.9,
+        "lowest_thi": 59.4,
+        "avg_thi": 64.5193877551,
+        "num_records_on_day": 98
+    },
+    {
+        "Date": 1529380800,
+        "highest_temp": 22.78,
+        "lowest_temp": 19.66,
+        "avg_temp": 21.7076,
+        "highest_thi": 68.6,
+        "lowest_thi": 64.6,
+        "avg_thi": 67.028,
+        "num_records_on_day": 25
+    },
+    {
+        "Date": 1529467200,
+        "highest_temp": 23.47,
+        "lowest_temp": 14.17,
+        "avg_temp": 19.4704861111,
+        "highest_thi": 69.9,
+        "lowest_thi": 55.5,
+        "avg_thi": 64.4798611111,
+        "num_records_on_day": 144
+    },
+    {
+        "Date": 1529553600,
+        "highest_temp": 23.99,
+        "lowest_temp": 13.61,
+        "avg_temp": 19.5315277778,
+        "highest_thi": 70.6,
+        "lowest_thi": 55.7,
+        "avg_thi": 64.5027777778,
+        "num_records_on_day": 144
+    },
+    {
+        "Date": 1529640000,
+        "highest_temp": 24.92,
+        "lowest_temp": 10.75,
+        "avg_temp": 17.6176923077,
+        "highest_thi": 72.1,
+        "lowest_thi": 50.6,
+        "avg_thi": 61.5230769231,
+        "num_records_on_day": 130
+    },
+    {
+        "Date": 1529726400,
+        "highest_temp": 23.39,
+        "lowest_temp": 17.91,
+        "avg_temp": 19.9875,
+        "highest_thi": 71.7,
+        "lowest_thi": 63.1,
+        "avg_thi": 66.29375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1529812800,
+        "highest_temp": 22.87,
+        "lowest_temp": 18.28,
+        "avg_temp": 20.30875,
+        "highest_thi": 71.1,
+        "lowest_thi": 64.0,
+        "avg_thi": 67.3895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1529899200,
+        "highest_temp": 21.29,
+        "lowest_temp": 14.75,
+        "avg_temp": 18.1866666667,
+        "highest_thi": 66.1,
+        "lowest_thi": 58.5,
+        "avg_thi": 62.93125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1529985600,
+        "highest_temp": 26.0,
+        "lowest_temp": 10.03,
+        "avg_temp": 18.0995833333,
+        "highest_thi": 71.5,
+        "lowest_thi": 48.9,
+        "avg_thi": 61.5041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530072000,
+        "highest_temp": 24.24,
+        "lowest_temp": 18.31,
+        "avg_temp": 19.8433333333,
+        "highest_thi": 69.6,
+        "lowest_thi": 63.8,
+        "avg_thi": 65.8833333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530158400,
+        "highest_temp": 25.65,
+        "lowest_temp": 19.78,
+        "avg_temp": 21.961875,
+        "highest_thi": 74.9,
+        "lowest_thi": 66.8,
+        "avg_thi": 70.1416666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530244800,
+        "highest_temp": 28.97,
+        "lowest_temp": 18.06,
+        "avg_temp": 23.2970833333,
+        "highest_thi": 75.9,
+        "lowest_thi": 63.4,
+        "avg_thi": 70.4041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530331200,
+        "highest_temp": 32.7,
+        "lowest_temp": 18.13,
+        "avg_temp": 25.07875,
+        "highest_thi": 82.0,
+        "lowest_thi": 63.4,
+        "avg_thi": 72.6479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530417600,
+        "highest_temp": 34.31,
+        "lowest_temp": 21.7,
+        "avg_temp": 31.3033035714,
+        "highest_thi": 83.4,
+        "lowest_thi": 69.8,
+        "avg_thi": 80.1794642857,
+        "num_records_on_day": 112
+    },
+    {
+        "Date": 1530504000,
+        "highest_temp": 34.35,
+        "lowest_temp": 23.45,
+        "avg_temp": 28.2346180556,
+        "highest_thi": 83.4,
+        "lowest_thi": 72.2,
+        "avg_thi": 77.634375,
+        "num_records_on_day": 288
+    },
+    {
+        "Date": 1530590400,
+        "highest_temp": 30.44,
+        "lowest_temp": 21.44,
+        "avg_temp": 23.3456382979,
+        "highest_thi": 78.0,
+        "lowest_thi": 70.0,
+        "avg_thi": 72.3638297872,
+        "num_records_on_day": 188
+    },
+    {
+        "Date": 1530676800,
+        "highest_temp": 33.03,
+        "lowest_temp": 18.24,
+        "avg_temp": 24.72625,
+        "highest_thi": 82.2,
+        "lowest_thi": 63.7,
+        "avg_thi": 72.68125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530763200,
+        "highest_temp": 30.7,
+        "lowest_temp": 22.61,
+        "avg_temp": 26.32,
+        "highest_thi": 81.8,
+        "lowest_thi": 71.4,
+        "avg_thi": 76.4020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530849600,
+        "highest_temp": 28.29,
+        "lowest_temp": 20.22,
+        "avg_temp": 23.4102083333,
+        "highest_thi": 78.8,
+        "lowest_thi": 65.5,
+        "avg_thi": 71.425,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1530936000,
+        "highest_temp": 24.58,
+        "lowest_temp": 13.42,
+        "avg_temp": 19.3260416667,
+        "highest_thi": 70.2,
+        "lowest_thi": 54.7,
+        "avg_thi": 63.6791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531022400,
+        "highest_temp": 27.95,
+        "lowest_temp": 14.46,
+        "avg_temp": 21.3322916667,
+        "highest_thi": 74.0,
+        "lowest_thi": 56.4,
+        "avg_thi": 66.4229166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531108800,
+        "highest_temp": 30.88,
+        "lowest_temp": 16.88,
+        "avg_temp": 23.4173333333,
+        "highest_thi": 76.7,
+        "lowest_thi": 60.7,
+        "avg_thi": 69.2422222222,
+        "num_records_on_day": 45
+    },
+    {
+        "Date": 1531195200,
+        "highest_temp": 29.94,
+        "lowest_temp": 18.02,
+        "avg_temp": 23.876875,
+        "highest_thi": 78.3,
+        "lowest_thi": 62.6,
+        "avg_thi": 70.5895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531281600,
+        "highest_temp": 25.94,
+        "lowest_temp": 17.24,
+        "avg_temp": 21.7489583333,
+        "highest_thi": 71.4,
+        "lowest_thi": 62.5,
+        "avg_thi": 67.1875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531368000,
+        "highest_temp": 28.42,
+        "lowest_temp": 13.34,
+        "avg_temp": 20.8935416667,
+        "highest_thi": 73.3,
+        "lowest_thi": 55.2,
+        "avg_thi": 65.3104166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531454400,
+        "highest_temp": 30.24,
+        "lowest_temp": 14.73,
+        "avg_temp": 22.9579166667,
+        "highest_thi": 76.1,
+        "lowest_thi": 58.0,
+        "avg_thi": 68.50625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531540800,
+        "highest_temp": 31.56,
+        "lowest_temp": 22.78,
+        "avg_temp": 26.7041666667,
+        "highest_thi": 79.0,
+        "lowest_thi": 69.6,
+        "avg_thi": 74.1125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531627200,
+        "highest_temp": 31.15,
+        "lowest_temp": 20.29,
+        "avg_temp": 25.1610416667,
+        "highest_thi": 78.9,
+        "lowest_thi": 67.7,
+        "avg_thi": 73.3958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531713600,
+        "highest_temp": 33.67,
+        "lowest_temp": 20.15,
+        "avg_temp": 26.7785416667,
+        "highest_thi": 81.5,
+        "lowest_thi": 67.7,
+        "avg_thi": 75.2895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531800000,
+        "highest_temp": 27.36,
+        "lowest_temp": 21.39,
+        "avg_temp": 23.8302083333,
+        "highest_thi": 75.7,
+        "lowest_thi": 69.7,
+        "avg_thi": 72.4208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531886400,
+        "highest_temp": 24.09,
+        "lowest_temp": 17.36,
+        "avg_temp": 20.4572916667,
+        "highest_thi": 70.0,
+        "lowest_thi": 61.6,
+        "avg_thi": 65.9854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1531972800,
+        "highest_temp": 26.57,
+        "lowest_temp": 12.76,
+        "avg_temp": 19.3516666667,
+        "highest_thi": 71.8,
+        "lowest_thi": 53.7,
+        "avg_thi": 63.31875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532059200,
+        "highest_temp": 29.54,
+        "lowest_temp": 15.38,
+        "avg_temp": 22.5633333333,
+        "highest_thi": 76.5,
+        "lowest_thi": 59.0,
+        "avg_thi": 68.2708333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532145600,
+        "highest_temp": 26.36,
+        "lowest_temp": 18.52,
+        "avg_temp": 22.61125,
+        "highest_thi": 73.2,
+        "lowest_thi": 64.1,
+        "avg_thi": 69.03125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532232000,
+        "highest_temp": 27.73,
+        "lowest_temp": 18.46,
+        "avg_temp": 22.4064583333,
+        "highest_thi": 76.4,
+        "lowest_thi": 64.0,
+        "avg_thi": 69.7625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532318400,
+        "highest_temp": 26.46,
+        "lowest_temp": 22.42,
+        "avg_temp": 23.990625,
+        "highest_thi": 76.3,
+        "lowest_thi": 71.2,
+        "avg_thi": 73.4770833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532404800,
+        "highest_temp": 25.58,
+        "lowest_temp": 22.64,
+        "avg_temp": 24.0029166667,
+        "highest_thi": 76.2,
+        "lowest_thi": 71.7,
+        "avg_thi": 73.9479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532491200,
+        "highest_temp": 24.58,
+        "lowest_temp": 21.13,
+        "avg_temp": 23.2016666667,
+        "highest_thi": 74.5,
+        "lowest_thi": 69.3,
+        "avg_thi": 72.7479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532577600,
+        "highest_temp": 28.37,
+        "lowest_temp": 19.56,
+        "avg_temp": 22.9527083333,
+        "highest_thi": 77.4,
+        "lowest_thi": 66.2,
+        "avg_thi": 70.9375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532664000,
+        "highest_temp": 26.87,
+        "lowest_temp": 20.21,
+        "avg_temp": 23.6691666667,
+        "highest_thi": 76.1,
+        "lowest_thi": 67.5,
+        "avg_thi": 71.83125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532750400,
+        "highest_temp": 25.92,
+        "lowest_temp": 18.52,
+        "avg_temp": 21.8277083333,
+        "highest_thi": 73.7,
+        "lowest_thi": 64.6,
+        "avg_thi": 68.9645833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532836800,
+        "highest_temp": 24.96,
+        "lowest_temp": 18.02,
+        "avg_temp": 20.8416666667,
+        "highest_thi": 71.7,
+        "lowest_thi": 63.4,
+        "avg_thi": 67.0145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1532923200,
+        "highest_temp": 25.38,
+        "lowest_temp": 16.39,
+        "avg_temp": 20.6504166667,
+        "highest_thi": 73.5,
+        "lowest_thi": 60.7,
+        "avg_thi": 67.2145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533009600,
+        "highest_temp": 26.46,
+        "lowest_temp": 18.33,
+        "avg_temp": 21.559375,
+        "highest_thi": 75.1,
+        "lowest_thi": 64.1,
+        "avg_thi": 68.7854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533096000,
+        "highest_temp": 27.75,
+        "lowest_temp": 22.06,
+        "avg_temp": 24.421875,
+        "highest_thi": 77.9,
+        "lowest_thi": 70.5,
+        "avg_thi": 73.525,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533182400,
+        "highest_temp": 26.99,
+        "lowest_temp": 21.01,
+        "avg_temp": 24.0158333333,
+        "highest_thi": 76.2,
+        "lowest_thi": 69.2,
+        "avg_thi": 73.05,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533268800,
+        "highest_temp": 25.24,
+        "lowest_temp": 21.08,
+        "avg_temp": 23.0154166667,
+        "highest_thi": 74.8,
+        "lowest_thi": 69.4,
+        "avg_thi": 71.9395833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533355200,
+        "highest_temp": 28.84,
+        "lowest_temp": 18.53,
+        "avg_temp": 23.4075,
+        "highest_thi": 77.5,
+        "lowest_thi": 64.9,
+        "avg_thi": 71.6541666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533441600,
+        "highest_temp": 30.94,
+        "lowest_temp": 18.32,
+        "avg_temp": 24.410625,
+        "highest_thi": 79.3,
+        "lowest_thi": 64.3,
+        "avg_thi": 72.5,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533528000,
+        "highest_temp": 32.62,
+        "lowest_temp": 20.17,
+        "avg_temp": 26.2297916667,
+        "highest_thi": 80.5,
+        "lowest_thi": 67.6,
+        "avg_thi": 74.9479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533614400,
+        "highest_temp": 27.83,
+        "lowest_temp": 21.44,
+        "avg_temp": 24.565625,
+        "highest_thi": 78.2,
+        "lowest_thi": 69.3,
+        "avg_thi": 73.80625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533700800,
+        "highest_temp": 26.66,
+        "lowest_temp": 21.11,
+        "avg_temp": 23.2597916667,
+        "highest_thi": 77.6,
+        "lowest_thi": 69.5,
+        "avg_thi": 72.68125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533787200,
+        "highest_temp": 27.01,
+        "lowest_temp": 20.65,
+        "avg_temp": 23.1154166667,
+        "highest_thi": 74.9,
+        "lowest_thi": 68.4,
+        "avg_thi": 71.38125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533873600,
+        "highest_temp": 26.13,
+        "lowest_temp": 18.42,
+        "avg_temp": 22.038125,
+        "highest_thi": 74.4,
+        "lowest_thi": 64.3,
+        "avg_thi": 69.6083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1533960000,
+        "highest_temp": 24.67,
+        "lowest_temp": 18.5,
+        "avg_temp": 20.2975,
+        "highest_thi": 73.9,
+        "lowest_thi": 64.4,
+        "avg_thi": 67.1875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534046400,
+        "highest_temp": 26.57,
+        "lowest_temp": 18.36,
+        "avg_temp": 21.32875,
+        "highest_thi": 76.1,
+        "lowest_thi": 64.2,
+        "avg_thi": 68.9020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534132800,
+        "highest_temp": 22.97,
+        "lowest_temp": 18.89,
+        "avg_temp": 21.0010416667,
+        "highest_thi": 72.1,
+        "lowest_thi": 65.5,
+        "avg_thi": 69.01875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534219200,
+        "highest_temp": 22.99,
+        "lowest_temp": 20.03,
+        "avg_temp": 21.3110416667,
+        "highest_thi": 72.4,
+        "lowest_thi": 67.7,
+        "avg_thi": 69.6791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534305600,
+        "highest_temp": 29.74,
+        "lowest_temp": 18.42,
+        "avg_temp": 23.3939583333,
+        "highest_thi": 79.5,
+        "lowest_thi": 64.3,
+        "avg_thi": 72.0,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534392000,
+        "highest_temp": 29.77,
+        "lowest_temp": 18.58,
+        "avg_temp": 24.5964583333,
+        "highest_thi": 79.1,
+        "lowest_thi": 64.6,
+        "avg_thi": 73.15,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534478400,
+        "highest_temp": 28.53,
+        "lowest_temp": 20.07,
+        "avg_temp": 23.771875,
+        "highest_thi": 79.2,
+        "lowest_thi": 67.6,
+        "avg_thi": 73.025,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534564800,
+        "highest_temp": 23.69,
+        "lowest_temp": 19.68,
+        "avg_temp": 21.480625,
+        "highest_thi": 73.7,
+        "lowest_thi": 66.6,
+        "avg_thi": 69.7458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534651200,
+        "highest_temp": 24.68,
+        "lowest_temp": 18.39,
+        "avg_temp": 20.7525,
+        "highest_thi": 72.6,
+        "lowest_thi": 64.2,
+        "avg_thi": 67.75625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534737600,
+        "highest_temp": 25.65,
+        "lowest_temp": 18.21,
+        "avg_temp": 21.5252083333,
+        "highest_thi": 73.1,
+        "lowest_thi": 63.7,
+        "avg_thi": 68.44375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534824000,
+        "highest_temp": 23.22,
+        "lowest_temp": 20.32,
+        "avg_temp": 21.5135416667,
+        "highest_thi": 71.9,
+        "lowest_thi": 67.1,
+        "avg_thi": 69.14375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534910400,
+        "highest_temp": 24.15,
+        "lowest_temp": 19.39,
+        "avg_temp": 21.6672916667,
+        "highest_thi": 72.7,
+        "lowest_thi": 66.3,
+        "avg_thi": 69.5958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1534996800,
+        "highest_temp": 23.74,
+        "lowest_temp": 14.24,
+        "avg_temp": 19.1810416667,
+        "highest_thi": 70.9,
+        "lowest_thi": 56.6,
+        "avg_thi": 64.6458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535083200,
+        "highest_temp": 26.97,
+        "lowest_temp": 14.38,
+        "avg_temp": 20.840625,
+        "highest_thi": 73.7,
+        "lowest_thi": 57.3,
+        "avg_thi": 66.525,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535169600,
+        "highest_temp": 26.18,
+        "lowest_temp": 17.33,
+        "avg_temp": 21.589375,
+        "highest_thi": 74.0,
+        "lowest_thi": 62.0,
+        "avg_thi": 67.9958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535256000,
+        "highest_temp": 28.32,
+        "lowest_temp": 18.87,
+        "avg_temp": 22.9385416667,
+        "highest_thi": 77.7,
+        "lowest_thi": 64.9,
+        "avg_thi": 70.5854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535342400,
+        "highest_temp": 28.93,
+        "lowest_temp": 18.87,
+        "avg_temp": 23.7579166667,
+        "highest_thi": 79.9,
+        "lowest_thi": 65.1,
+        "avg_thi": 72.7625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535428800,
+        "highest_temp": 32.18,
+        "lowest_temp": 23.21,
+        "avg_temp": 27.1523913043,
+        "highest_thi": 81.6,
+        "lowest_thi": 72.7,
+        "avg_thi": 77.2065217391,
+        "num_records_on_day": 46
+    },
+    {
+        "Date": 1535515200,
+        "highest_temp": 32.62,
+        "lowest_temp": 23.76,
+        "avg_temp": 27.275625,
+        "highest_thi": 81.8,
+        "lowest_thi": 73.2,
+        "avg_thi": 77.3291666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535601600,
+        "highest_temp": 24.42,
+        "lowest_temp": 19.3,
+        "avg_temp": 21.9752083333,
+        "highest_thi": 74.6,
+        "lowest_thi": 65.3,
+        "avg_thi": 70.1875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535688000,
+        "highest_temp": 22.91,
+        "lowest_temp": 16.48,
+        "avg_temp": 19.55125,
+        "highest_thi": 71.4,
+        "lowest_thi": 61.2,
+        "avg_thi": 65.9291666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535774400,
+        "highest_temp": 25.54,
+        "lowest_temp": 19.75,
+        "avg_temp": 21.925625,
+        "highest_thi": 74.2,
+        "lowest_thi": 66.5,
+        "avg_thi": 69.8666666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535860800,
+        "highest_temp": 30.04,
+        "lowest_temp": 21.45,
+        "avg_temp": 24.8202083333,
+        "highest_thi": 80.5,
+        "lowest_thi": 69.6,
+        "avg_thi": 74.1020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1535947200,
+        "highest_temp": 31.46,
+        "lowest_temp": 23.09,
+        "avg_temp": 26.50125,
+        "highest_thi": 81.6,
+        "lowest_thi": 72.5,
+        "avg_thi": 76.7270833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536033600,
+        "highest_temp": 29.17,
+        "lowest_temp": 21.03,
+        "avg_temp": 24.5247916667,
+        "highest_thi": 79.4,
+        "lowest_thi": 69.2,
+        "avg_thi": 73.875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536120000,
+        "highest_temp": 33.16,
+        "lowest_temp": 21.17,
+        "avg_temp": 26.5675,
+        "highest_thi": 82.7,
+        "lowest_thi": 69.6,
+        "avg_thi": 76.2083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536206400,
+        "highest_temp": 29.07,
+        "lowest_temp": 21.99,
+        "avg_temp": 25.4110416667,
+        "highest_thi": 79.4,
+        "lowest_thi": 69.8,
+        "avg_thi": 75.3479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536292800,
+        "highest_temp": 23.87,
+        "lowest_temp": 18.45,
+        "avg_temp": 20.79375,
+        "highest_thi": 70.2,
+        "lowest_thi": 64.8,
+        "avg_thi": 67.5958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536379200,
+        "highest_temp": 19.56,
+        "lowest_temp": 14.98,
+        "avg_temp": 17.4397916667,
+        "highest_thi": 65.3,
+        "lowest_thi": 58.4,
+        "avg_thi": 61.9729166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536465600,
+        "highest_temp": 17.62,
+        "lowest_temp": 12.16,
+        "avg_temp": 15.161875,
+        "highest_thi": 62.4,
+        "lowest_thi": 53.0,
+        "avg_thi": 58.2791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536552000,
+        "highest_temp": 17.08,
+        "lowest_temp": 10.58,
+        "avg_temp": 14.2091666667,
+        "highest_thi": 61.5,
+        "lowest_thi": 50.6,
+        "avg_thi": 56.8229166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536638400,
+        "highest_temp": 21.78,
+        "lowest_temp": 15.65,
+        "avg_temp": 18.8610416667,
+        "highest_thi": 69.3,
+        "lowest_thi": 59.4,
+        "avg_thi": 64.69375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536724800,
+        "highest_temp": 24.05,
+        "lowest_temp": 18.38,
+        "avg_temp": 20.5083333333,
+        "highest_thi": 72.4,
+        "lowest_thi": 64.2,
+        "avg_thi": 67.6791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536811200,
+        "highest_temp": 28.1,
+        "lowest_temp": 19.31,
+        "avg_temp": 22.668125,
+        "highest_thi": 78.3,
+        "lowest_thi": 66.3,
+        "avg_thi": 71.3104166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536897600,
+        "highest_temp": 27.49,
+        "lowest_temp": 20.32,
+        "avg_temp": 23.7485416667,
+        "highest_thi": 77.1,
+        "lowest_thi": 67.8,
+        "avg_thi": 72.65625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1536984000,
+        "highest_temp": 28.89,
+        "lowest_temp": 20.57,
+        "avg_temp": 24.300625,
+        "highest_thi": 78.3,
+        "lowest_thi": 68.3,
+        "avg_thi": 73.2208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537070400,
+        "highest_temp": 29.82,
+        "lowest_temp": 18.45,
+        "avg_temp": 23.5941666667,
+        "highest_thi": 79.1,
+        "lowest_thi": 64.8,
+        "avg_thi": 71.9520833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537156800,
+        "highest_temp": 24.97,
+        "lowest_temp": 18.55,
+        "avg_temp": 22.0547916667,
+        "highest_thi": 74.0,
+        "lowest_thi": 64.5,
+        "avg_thi": 69.8895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537243200,
+        "highest_temp": 27.1,
+        "lowest_temp": 19.58,
+        "avg_temp": 22.251875,
+        "highest_thi": 76.6,
+        "lowest_thi": 66.7,
+        "avg_thi": 70.70625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537329600,
+        "highest_temp": 22.88,
+        "lowest_temp": 17.63,
+        "avg_temp": 19.7733333333,
+        "highest_thi": 71.6,
+        "lowest_thi": 62.4,
+        "avg_thi": 66.3770833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537416000,
+        "highest_temp": 23.5,
+        "lowest_temp": 13.49,
+        "avg_temp": 17.8333333333,
+        "highest_thi": 71.1,
+        "lowest_thi": 55.1,
+        "avg_thi": 62.4020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537502400,
+        "highest_temp": 24.66,
+        "lowest_temp": 20.08,
+        "avg_temp": 21.600625,
+        "highest_thi": 73.9,
+        "lowest_thi": 66.9,
+        "avg_thi": 69.4479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537588800,
+        "highest_temp": 22.25,
+        "lowest_temp": 13.59,
+        "avg_temp": 16.8854166667,
+        "highest_thi": 70.7,
+        "lowest_thi": 56.2,
+        "avg_thi": 61.4458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537675200,
+        "highest_temp": 19.32,
+        "lowest_temp": 9.94,
+        "avg_temp": 14.8622916667,
+        "highest_thi": 64.5,
+        "lowest_thi": 48.7,
+        "avg_thi": 57.3770833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537761600,
+        "highest_temp": 20.88,
+        "lowest_temp": 9.71,
+        "avg_temp": 15.831875,
+        "highest_thi": 66.3,
+        "lowest_thi": 49.5,
+        "avg_thi": 58.9041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537848000,
+        "highest_temp": 20.27,
+        "lowest_temp": 13.44,
+        "avg_temp": 16.321875,
+        "highest_thi": 67.3,
+        "lowest_thi": 55.6,
+        "avg_thi": 60.5625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1537934400,
+        "highest_temp": 23.09,
+        "lowest_temp": 17.67,
+        "avg_temp": 20.74125,
+        "highest_thi": 72.1,
+        "lowest_thi": 63.1,
+        "avg_thi": 68.3979166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538020800,
+        "highest_temp": 18.19,
+        "lowest_temp": 12.53,
+        "avg_temp": 15.6435416667,
+        "highest_thi": 62.9,
+        "lowest_thi": 52.8,
+        "avg_thi": 58.8708333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538107200,
+        "highest_temp": 20.79,
+        "lowest_temp": 13.44,
+        "avg_temp": 16.5472916667,
+        "highest_thi": 66.8,
+        "lowest_thi": 55.1,
+        "avg_thi": 60.56875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538193600,
+        "highest_temp": 18.76,
+        "lowest_temp": 12.92,
+        "avg_temp": 15.8679166667,
+        "highest_thi": 64.2,
+        "lowest_thi": 54.9,
+        "avg_thi": 59.3083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538280000,
+        "highest_temp": 16.5,
+        "lowest_temp": 10.18,
+        "avg_temp": 13.1508333333,
+        "highest_thi": 60.1,
+        "lowest_thi": 48.0,
+        "avg_thi": 54.94375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538366400,
+        "highest_temp": 17.13,
+        "lowest_temp": 14.54,
+        "avg_temp": 15.7102083333,
+        "highest_thi": 61.8,
+        "lowest_thi": 57.5,
+        "avg_thi": 59.38125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538452800,
+        "highest_temp": 21.71,
+        "lowest_temp": 15.02,
+        "avg_temp": 17.9670833333,
+        "highest_thi": 70.0,
+        "lowest_thi": 57.7,
+        "avg_thi": 63.4145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538539200,
+        "highest_temp": 20.46,
+        "lowest_temp": 13.5,
+        "avg_temp": 16.69125,
+        "highest_thi": 67.8,
+        "lowest_thi": 56.0,
+        "avg_thi": 61.1083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538625600,
+        "highest_temp": 20.56,
+        "lowest_temp": 14.46,
+        "avg_temp": 17.6579166667,
+        "highest_thi": 68.5,
+        "lowest_thi": 57.1,
+        "avg_thi": 62.925,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538712000,
+        "highest_temp": 18.94,
+        "lowest_temp": 9.92,
+        "avg_temp": 13.8508333333,
+        "highest_thi": 63.2,
+        "lowest_thi": 48.1,
+        "avg_thi": 55.8666666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538798400,
+        "highest_temp": 23.92,
+        "lowest_temp": 14.29,
+        "avg_temp": 18.0675,
+        "highest_thi": 72.9,
+        "lowest_thi": 56.4,
+        "avg_thi": 63.48125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538884800,
+        "highest_temp": 21.14,
+        "lowest_temp": 15.58,
+        "avg_temp": 19.0366666667,
+        "highest_thi": 69.1,
+        "lowest_thi": 59.2,
+        "avg_thi": 65.45625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1538971200,
+        "highest_temp": 26.18,
+        "lowest_temp": 14.41,
+        "avg_temp": 19.009375,
+        "highest_thi": 76.0,
+        "lowest_thi": 57.3,
+        "avg_thi": 64.7604166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539057600,
+        "highest_temp": 27.64,
+        "lowest_temp": 21.25,
+        "avg_temp": 23.914375,
+        "highest_thi": 77.3,
+        "lowest_thi": 69.3,
+        "avg_thi": 72.725,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539144000,
+        "highest_temp": 27.11,
+        "lowest_temp": 20.07,
+        "avg_temp": 23.2266666667,
+        "highest_thi": 75.8,
+        "lowest_thi": 67.6,
+        "avg_thi": 71.4729166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539230400,
+        "highest_temp": 23.17,
+        "lowest_temp": 17.8,
+        "avg_temp": 21.4202083333,
+        "highest_thi": 72.2,
+        "lowest_thi": 62.7,
+        "avg_thi": 69.44375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539316800,
+        "highest_temp": 17.35,
+        "lowest_temp": 8.86,
+        "avg_temp": 11.784375,
+        "highest_thi": 61.8,
+        "lowest_thi": 48.5,
+        "avg_thi": 53.3875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539403200,
+        "highest_temp": 11.08,
+        "lowest_temp": 7.0,
+        "avg_temp": 9.26375,
+        "highest_thi": 52.5,
+        "lowest_thi": 44.2,
+        "avg_thi": 48.9604166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539489600,
+        "highest_temp": 16.62,
+        "lowest_temp": 7.78,
+        "avg_temp": 11.3266666667,
+        "highest_thi": 60.2,
+        "lowest_thi": 46.3,
+        "avg_thi": 52.0145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539576000,
+        "highest_temp": 17.48,
+        "lowest_temp": 9.68,
+        "avg_temp": 12.6697916667,
+        "highest_thi": 62.4,
+        "lowest_thi": 49.1,
+        "avg_thi": 54.575,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539662400,
+        "highest_temp": 13.5,
+        "lowest_temp": 5.44,
+        "avg_temp": 8.7983333333,
+        "highest_thi": 56.0,
+        "lowest_thi": 43.1,
+        "avg_thi": 49.15625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539748800,
+        "highest_temp": 10.45,
+        "lowest_temp": 5.91,
+        "avg_temp": 8.66125,
+        "highest_thi": 51.1,
+        "lowest_thi": 42.5,
+        "avg_thi": 48.4708333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539835200,
+        "highest_temp": 8.54,
+        "lowest_temp": 2.27,
+        "avg_temp": 4.5189583333,
+        "highest_thi": 48.0,
+        "lowest_thi": 37.4,
+        "avg_thi": 42.2375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1539921600,
+        "highest_temp": 17.92,
+        "lowest_temp": 2.81,
+        "avg_temp": 8.8045833333,
+        "highest_thi": 61.6,
+        "lowest_thi": 38.0,
+        "avg_thi": 48.0125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540008000,
+        "highest_temp": 13.59,
+        "lowest_temp": 7.43,
+        "avg_temp": 11.67,
+        "highest_thi": 56.0,
+        "lowest_thi": 45.5,
+        "avg_thi": 53.3208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540094400,
+        "highest_temp": 10.44,
+        "lowest_temp": 2.51,
+        "avg_temp": 5.2464583333,
+        "highest_thi": 50.2,
+        "lowest_thi": 38.2,
+        "avg_thi": 43.0083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540180800,
+        "highest_temp": 10.92,
+        "lowest_temp": 3.96,
+        "avg_temp": 7.205625,
+        "highest_thi": 53.0,
+        "lowest_thi": 41.9,
+        "avg_thi": 46.5208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540267200,
+        "highest_temp": 12.83,
+        "lowest_temp": 7.53,
+        "avg_temp": 9.70625,
+        "highest_thi": 55.0,
+        "lowest_thi": 45.9,
+        "avg_thi": 49.93125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540353600,
+        "highest_temp": 7.84,
+        "lowest_temp": 4.48,
+        "avg_temp": 5.519375,
+        "highest_thi": 46.6,
+        "lowest_thi": 40.2,
+        "avg_thi": 42.6375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540440000,
+        "highest_temp": 6.48,
+        "lowest_temp": 3.21,
+        "avg_temp": 4.6508333333,
+        "highest_thi": 45.3,
+        "lowest_thi": 38.8,
+        "avg_thi": 41.9333333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540526400,
+        "highest_temp": 9.5,
+        "lowest_temp": 5.15,
+        "avg_temp": 7.2316666667,
+        "highest_thi": 50.4,
+        "lowest_thi": 40.8,
+        "avg_thi": 45.89375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540612800,
+        "highest_temp": 8.37,
+        "lowest_temp": 5.63,
+        "avg_temp": 7.0302083333,
+        "highest_thi": 48.9,
+        "lowest_thi": 42.4,
+        "avg_thi": 45.2208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540699200,
+        "highest_temp": 10.19,
+        "lowest_temp": 5.06,
+        "avg_temp": 7.1814583333,
+        "highest_thi": 50.5,
+        "lowest_thi": 41.0,
+        "avg_thi": 44.9020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540785600,
+        "highest_temp": 10.17,
+        "lowest_temp": 6.91,
+        "avg_temp": 8.094375,
+        "highest_thi": 50.1,
+        "lowest_thi": 44.5,
+        "avg_thi": 46.825,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540872000,
+        "highest_temp": 11.96,
+        "lowest_temp": 4.64,
+        "avg_temp": 7.4579166667,
+        "highest_thi": 53.8,
+        "lowest_thi": 40.7,
+        "avg_thi": 46.0458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1540958400,
+        "highest_temp": 17.18,
+        "lowest_temp": 4.44,
+        "avg_temp": 10.4116666667,
+        "highest_thi": 61.7,
+        "lowest_thi": 40.9,
+        "avg_thi": 50.8208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541044800,
+        "highest_temp": 15.96,
+        "lowest_temp": 9.34,
+        "avg_temp": 11.5310416667,
+        "highest_thi": 60.0,
+        "lowest_thi": 48.5,
+        "avg_thi": 52.2666666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541131200,
+        "highest_temp": 17.77,
+        "lowest_temp": 8.94,
+        "avg_temp": 14.1025,
+        "highest_thi": 62.7,
+        "lowest_thi": 47.1,
+        "avg_thi": 56.68125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541217600,
+        "highest_temp": 12.05,
+        "lowest_temp": 5.14,
+        "avg_temp": 7.2777083333,
+        "highest_thi": 52.8,
+        "lowest_thi": 41.6,
+        "avg_thi": 45.4979166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541304000,
+        "highest_temp": 11.73,
+        "lowest_temp": 4.77,
+        "avg_temp": 7.6629166667,
+        "highest_thi": 53.1,
+        "lowest_thi": 40.4,
+        "avg_thi": 46.68125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541394000,
+        "highest_temp": 10.77,
+        "lowest_temp": 7.95,
+        "avg_temp": 9.333125,
+        "highest_thi": 51.6,
+        "lowest_thi": 47.7,
+        "avg_thi": 49.7791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541480400,
+        "highest_temp": 17.04,
+        "lowest_temp": 8.77,
+        "avg_temp": 11.8777083333,
+        "highest_thi": 61.2,
+        "lowest_thi": 48.1,
+        "avg_thi": 53.15,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541566800,
+        "highest_temp": 14.05,
+        "lowest_temp": 8.24,
+        "avg_temp": 11.773125,
+        "highest_thi": 57.2,
+        "lowest_thi": 48.7,
+        "avg_thi": 53.60625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541653200,
+        "highest_temp": 9.09,
+        "lowest_temp": 5.77,
+        "avg_temp": 7.1902083333,
+        "highest_thi": 49.2,
+        "lowest_thi": 44.5,
+        "avg_thi": 46.7854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541739600,
+        "highest_temp": 9.01,
+        "lowest_temp": 3.66,
+        "avg_temp": 5.6177083333,
+        "highest_thi": 49.1,
+        "lowest_thi": 39.1,
+        "avg_thi": 42.7270833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541826000,
+        "highest_temp": 7.87,
+        "lowest_temp": -1.73,
+        "avg_temp": 3.4064583333,
+        "highest_thi": 46.4,
+        "lowest_thi": 30.2,
+        "avg_thi": 39.91875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541912400,
+        "highest_temp": 7.95,
+        "lowest_temp": 0.3,
+        "avg_temp": 3.07125,
+        "highest_thi": 47.6,
+        "lowest_thi": 35.2,
+        "avg_thi": 40.1895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1541998800,
+        "highest_temp": 9.76,
+        "lowest_temp": 3.12,
+        "avg_temp": 6.366875,
+        "highest_thi": 51.3,
+        "lowest_thi": 38.7,
+        "avg_thi": 45.1770833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542085200,
+        "highest_temp": 7.73,
+        "lowest_temp": 1.69,
+        "avg_temp": 5.6685416667,
+        "highest_thi": 48.4,
+        "lowest_thi": 35.5,
+        "avg_thi": 43.0458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542171600,
+        "highest_temp": 4.22,
+        "lowest_temp": -1.8,
+        "avg_temp": -0.1083333333,
+        "highest_thi": 41.3,
+        "lowest_thi": 30.0,
+        "avg_thi": 33.8958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542258000,
+        "highest_temp": 4.09,
+        "lowest_temp": -2.22,
+        "avg_temp": 0.8833333333,
+        "highest_thi": 41.9,
+        "lowest_thi": 29.9,
+        "avg_thi": 34.9979166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542344400,
+        "highest_temp": 6.08,
+        "lowest_temp": 0.9,
+        "avg_temp": 4.0504166667,
+        "highest_thi": 43.9,
+        "lowest_thi": 34.1,
+        "avg_thi": 39.8083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542430800,
+        "highest_temp": 7.2,
+        "lowest_temp": 2.76,
+        "avg_temp": 4.6645833333,
+        "highest_thi": 45.7,
+        "lowest_thi": 38.4,
+        "avg_thi": 41.5041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542517200,
+        "highest_temp": 6.41,
+        "lowest_temp": 2.14,
+        "avg_temp": 4.2304166667,
+        "highest_thi": 43.7,
+        "lowest_thi": 37.2,
+        "avg_thi": 40.6458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542603600,
+        "highest_temp": 8.83,
+        "lowest_temp": 4.01,
+        "avg_temp": 6.508125,
+        "highest_thi": 48.0,
+        "lowest_thi": 39.5,
+        "avg_thi": 43.9875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542690000,
+        "highest_temp": 7.28,
+        "lowest_temp": 1.33,
+        "avg_temp": 5.2895833333,
+        "highest_thi": 45.3,
+        "lowest_thi": 36.7,
+        "avg_thi": 41.8083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542776400,
+        "highest_temp": 5.49,
+        "lowest_temp": -2.47,
+        "avg_temp": 1.8854166667,
+        "highest_thi": 42.5,
+        "lowest_thi": 31.6,
+        "avg_thi": 37.5145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542862800,
+        "highest_temp": 3.65,
+        "lowest_temp": -6.63,
+        "avg_temp": -2.3533333333,
+        "highest_thi": 39.7,
+        "lowest_thi": 22.1,
+        "avg_thi": 30.3166666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1542949200,
+        "highest_temp": 6.51,
+        "lowest_temp": -1.71,
+        "avg_temp": 2.1347916667,
+        "highest_thi": 44.5,
+        "lowest_thi": 29.3,
+        "avg_thi": 37.0020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543035600,
+        "highest_temp": 6.57,
+        "lowest_temp": 2.8,
+        "avg_temp": 4.984375,
+        "highest_thi": 44.6,
+        "lowest_thi": 39.1,
+        "avg_thi": 42.7354166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543122000,
+        "highest_temp": 10.13,
+        "lowest_temp": 5.7,
+        "avg_temp": 8.00375,
+        "highest_thi": 50.3,
+        "lowest_thi": 42.2,
+        "avg_thi": 46.4333333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543208400,
+        "highest_temp": 9.45,
+        "lowest_temp": 5.16,
+        "avg_temp": 7.3727083333,
+        "highest_thi": 49.2,
+        "lowest_thi": 41.2,
+        "avg_thi": 45.3520833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543294800,
+        "highest_temp": 8.66,
+        "lowest_temp": 2.33,
+        "avg_temp": 4.7808333333,
+        "highest_thi": 47.3,
+        "lowest_thi": 36.1,
+        "avg_thi": 40.6208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543381200,
+        "highest_temp": 4.95,
+        "lowest_temp": 0.37,
+        "avg_temp": 2.3152083333,
+        "highest_thi": 40.4,
+        "lowest_thi": 33.8,
+        "avg_thi": 36.7291666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543467600,
+        "highest_temp": 4.9,
+        "lowest_temp": 2.61,
+        "avg_temp": 3.615625,
+        "highest_thi": 41.2,
+        "lowest_thi": 36.9,
+        "avg_thi": 39.0833333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543554000,
+        "highest_temp": 6.97,
+        "lowest_temp": 3.62,
+        "avg_temp": 5.4495833333,
+        "highest_thi": 44.6,
+        "lowest_thi": 39.3,
+        "avg_thi": 42.2875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543640400,
+        "highest_temp": 7.42,
+        "lowest_temp": 2.88,
+        "avg_temp": 5.2275,
+        "highest_thi": 45.6,
+        "lowest_thi": 37.2,
+        "avg_thi": 41.8833333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543726800,
+        "highest_temp": 11.79,
+        "lowest_temp": 4.26,
+        "avg_temp": 7.7272916667,
+        "highest_thi": 53.5,
+        "lowest_thi": 40.2,
+        "avg_thi": 46.1395833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543813200,
+        "highest_temp": 11.09,
+        "lowest_temp": 3.19,
+        "avg_temp": 7.9085416667,
+        "highest_thi": 52.1,
+        "lowest_thi": 38.1,
+        "avg_thi": 46.7145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543899600,
+        "highest_temp": 6.16,
+        "lowest_temp": 0.34,
+        "avg_temp": 3.1433333333,
+        "highest_thi": 44.0,
+        "lowest_thi": 34.3,
+        "avg_thi": 38.2625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1543986000,
+        "highest_temp": 5.5,
+        "lowest_temp": 2.36,
+        "avg_temp": 4.0835416667,
+        "highest_thi": 43.0,
+        "lowest_thi": 36.7,
+        "avg_thi": 39.9583333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544072400,
+        "highest_temp": 5.86,
+        "lowest_temp": 1.94,
+        "avg_temp": 4.1264583333,
+        "highest_thi": 44.0,
+        "lowest_thi": 37.0,
+        "avg_thi": 40.6520833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544158800,
+        "highest_temp": 5.17,
+        "lowest_temp": -2.26,
+        "avg_temp": 1.2279166667,
+        "highest_thi": 42.3,
+        "lowest_thi": 29.8,
+        "avg_thi": 35.825,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544245200,
+        "highest_temp": 5.41,
+        "lowest_temp": 0.47,
+        "avg_temp": 3.1420833333,
+        "highest_thi": 41.9,
+        "lowest_thi": 34.4,
+        "avg_thi": 38.7833333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544331600,
+        "highest_temp": 6.6,
+        "lowest_temp": 1.05,
+        "avg_temp": 4.330625,
+        "highest_thi": 45.9,
+        "lowest_thi": 36.3,
+        "avg_thi": 40.9166666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544418000,
+        "highest_temp": 6.32,
+        "lowest_temp": 2.69,
+        "avg_temp": 4.8472916667,
+        "highest_thi": 44.3,
+        "lowest_thi": 38.5,
+        "avg_thi": 41.75,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544504400,
+        "highest_temp": 5.65,
+        "lowest_temp": 2.05,
+        "avg_temp": 4.2214583333,
+        "highest_thi": 44.8,
+        "lowest_thi": 37.7,
+        "avg_thi": 41.1333333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544590800,
+        "highest_temp": 6.85,
+        "lowest_temp": 2.2,
+        "avg_temp": 4.4989583333,
+        "highest_thi": 45.4,
+        "lowest_thi": 36.9,
+        "avg_thi": 40.8291666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544677200,
+        "highest_temp": 6.09,
+        "lowest_temp": 2.89,
+        "avg_temp": 4.6922916667,
+        "highest_thi": 44.7,
+        "lowest_thi": 38.4,
+        "avg_thi": 41.6875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544763600,
+        "highest_temp": 9.25,
+        "lowest_temp": 3.26,
+        "avg_temp": 6.1802083333,
+        "highest_thi": 49.5,
+        "lowest_thi": 39.1,
+        "avg_thi": 44.0833333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544850000,
+        "highest_temp": 9.48,
+        "lowest_temp": 5.05,
+        "avg_temp": 7.153125,
+        "highest_thi": 49.6,
+        "lowest_thi": 41.8,
+        "avg_thi": 45.4,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1544936400,
+        "highest_temp": 7.44,
+        "lowest_temp": 4.41,
+        "avg_temp": 6.1229166667,
+        "highest_thi": 45.7,
+        "lowest_thi": 40.0,
+        "avg_thi": 43.1895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545022800,
+        "highest_temp": 7.15,
+        "lowest_temp": 1.74,
+        "avg_temp": 4.9647916667,
+        "highest_thi": 44.4,
+        "lowest_thi": 35.3,
+        "avg_thi": 41.3083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545109200,
+        "highest_temp": 4.17,
+        "lowest_temp": -3.41,
+        "avg_temp": -0.7,
+        "highest_thi": 40.9,
+        "lowest_thi": 29.4,
+        "avg_thi": 33.44375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545195600,
+        "highest_temp": 7.67,
+        "lowest_temp": 0.58,
+        "avg_temp": 3.9002083333,
+        "highest_thi": 47.5,
+        "lowest_thi": 33.8,
+        "avg_thi": 40.15625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545282000,
+        "highest_temp": 9.81,
+        "lowest_temp": 2.41,
+        "avg_temp": 6.0014583333,
+        "highest_thi": 50.7,
+        "lowest_thi": 38.2,
+        "avg_thi": 44.45625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545368400,
+        "highest_temp": 18.09,
+        "lowest_temp": 6.64,
+        "avg_temp": 13.2579166667,
+        "highest_thi": 63.2,
+        "lowest_thi": 43.9,
+        "avg_thi": 55.6375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545454800,
+        "highest_temp": 8.68,
+        "lowest_temp": 0.58,
+        "avg_temp": 3.1085416667,
+        "highest_thi": 47.6,
+        "lowest_thi": 33.7,
+        "avg_thi": 38.0583333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545541200,
+        "highest_temp": 6.65,
+        "lowest_temp": 0.69,
+        "avg_temp": 3.5972916667,
+        "highest_thi": 44.6,
+        "lowest_thi": 35.3,
+        "avg_thi": 39.6375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545627600,
+        "highest_temp": 6.99,
+        "lowest_temp": 1.97,
+        "avg_temp": 5.1370833333,
+        "highest_thi": 44.9,
+        "lowest_thi": 36.6,
+        "avg_thi": 41.9166666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545714000,
+        "highest_temp": 6.12,
+        "lowest_temp": 1.35,
+        "avg_temp": 3.538125,
+        "highest_thi": 43.9,
+        "lowest_thi": 36.3,
+        "avg_thi": 39.3583333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545800400,
+        "highest_temp": 6.9,
+        "lowest_temp": 1.81,
+        "avg_temp": 4.543125,
+        "highest_thi": 45.0,
+        "lowest_thi": 36.3,
+        "avg_thi": 41.05625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545886800,
+        "highest_temp": 6.29,
+        "lowest_temp": 1.59,
+        "avg_temp": 4.1585416667,
+        "highest_thi": 44.5,
+        "lowest_thi": 35.6,
+        "avg_thi": 40.4229166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1545973200,
+        "highest_temp": 11.71,
+        "lowest_temp": 4.64,
+        "avg_temp": 7.5427083333,
+        "highest_thi": 53.1,
+        "lowest_thi": 41.6,
+        "avg_thi": 46.5041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546059600,
+        "highest_temp": 11.8,
+        "lowest_temp": 0.22,
+        "avg_temp": 5.396875,
+        "highest_thi": 53.2,
+        "lowest_thi": 34.0,
+        "avg_thi": 42.375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546146000,
+        "highest_temp": 6.3,
+        "lowest_temp": 0.52,
+        "avg_temp": 3.9914583333,
+        "highest_thi": 45.0,
+        "lowest_thi": 35.1,
+        "avg_thi": 40.14375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546232400,
+        "highest_temp": 6.88,
+        "lowest_temp": 3.22,
+        "avg_temp": 5.074375,
+        "highest_thi": 45.0,
+        "lowest_thi": 38.3,
+        "avg_thi": 41.98125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546318800,
+        "highest_temp": 12.22,
+        "lowest_temp": 2.09,
+        "avg_temp": 6.3258333333,
+        "highest_thi": 54.0,
+        "lowest_thi": 36.8,
+        "avg_thi": 44.1083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546405200,
+        "highest_temp": 5.39,
+        "lowest_temp": -0.79,
+        "avg_temp": 2.4979166667,
+        "highest_thi": 42.8,
+        "lowest_thi": 32.9,
+        "avg_thi": 37.8395833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546491600,
+        "highest_temp": 6.14,
+        "lowest_temp": 1.42,
+        "avg_temp": 3.7845833333,
+        "highest_thi": 43.6,
+        "lowest_thi": 36.7,
+        "avg_thi": 39.91875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546578000,
+        "highest_temp": 8.65,
+        "lowest_temp": 2.67,
+        "avg_temp": 5.32125,
+        "highest_thi": 49.4,
+        "lowest_thi": 38.3,
+        "avg_thi": 43.2145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546664400,
+        "highest_temp": 7.15,
+        "lowest_temp": 3.16,
+        "avg_temp": 5.3502083333,
+        "highest_thi": 45.4,
+        "lowest_thi": 37.8,
+        "avg_thi": 42.4291666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546750800,
+        "highest_temp": 7.94,
+        "lowest_temp": 0.15,
+        "avg_temp": 3.9589583333,
+        "highest_thi": 46.0,
+        "lowest_thi": 33.9,
+        "avg_thi": 40.0104166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546837200,
+        "highest_temp": 4.42,
+        "lowest_temp": -3.02,
+        "avg_temp": 1.4777083333,
+        "highest_thi": 42.6,
+        "lowest_thi": 29.5,
+        "avg_thi": 36.3583333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1546923600,
+        "highest_temp": 7.44,
+        "lowest_temp": 3.79,
+        "avg_temp": 5.26,
+        "highest_thi": 46.3,
+        "lowest_thi": 40.1,
+        "avg_thi": 42.7354166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547010000,
+        "highest_temp": 8.38,
+        "lowest_temp": -0.13,
+        "avg_temp": 3.5891666667,
+        "highest_thi": 46.9,
+        "lowest_thi": 34.1,
+        "avg_thi": 39.6270833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547096400,
+        "highest_temp": 3.46,
+        "lowest_temp": -3.02,
+        "avg_temp": -0.1935416667,
+        "highest_thi": 38.9,
+        "lowest_thi": 27.8,
+        "avg_thi": 32.9666666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547182800,
+        "highest_temp": 4.98,
+        "lowest_temp": -7.0,
+        "avg_temp": -0.7810416667,
+        "highest_thi": 42.4,
+        "lowest_thi": 21.7,
+        "avg_thi": 31.8083333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547269200,
+        "highest_temp": 5.8,
+        "lowest_temp": 1.72,
+        "avg_temp": 4.1214583333,
+        "highest_thi": 42.8,
+        "lowest_thi": 36.1,
+        "avg_thi": 39.9479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547355600,
+        "highest_temp": 6.85,
+        "lowest_temp": -0.08,
+        "avg_temp": 3.7583333333,
+        "highest_thi": 43.9,
+        "lowest_thi": 31.0,
+        "avg_thi": 39.1854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547442000,
+        "highest_temp": 6.45,
+        "lowest_temp": 1.78,
+        "avg_temp": 4.6310416667,
+        "highest_thi": 43.6,
+        "lowest_thi": 36.0,
+        "avg_thi": 40.6916666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547528400,
+        "highest_temp": 6.28,
+        "lowest_temp": 2.06,
+        "avg_temp": 4.0197916667,
+        "highest_thi": 44.1,
+        "lowest_thi": 36.0,
+        "avg_thi": 39.8645833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547614800,
+        "highest_temp": 5.76,
+        "lowest_temp": 1.24,
+        "avg_temp": 3.8883333333,
+        "highest_thi": 45.3,
+        "lowest_thi": 36.6,
+        "avg_thi": 40.49375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547701200,
+        "highest_temp": 6.23,
+        "lowest_temp": 2.13,
+        "avg_temp": 4.3110416667,
+        "highest_thi": 44.3,
+        "lowest_thi": 36.2,
+        "avg_thi": 40.3625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547787600,
+        "highest_temp": 6.08,
+        "lowest_temp": 2.13,
+        "avg_temp": 4.24,
+        "highest_thi": 44.2,
+        "lowest_thi": 36.7,
+        "avg_thi": 40.75,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547874000,
+        "highest_temp": 5.81,
+        "lowest_temp": 0.83,
+        "avg_temp": 3.8214583333,
+        "highest_thi": 43.4,
+        "lowest_thi": 32.7,
+        "avg_thi": 39.80625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1547960400,
+        "highest_temp": 6.13,
+        "lowest_temp": -6.22,
+        "avg_temp": 0.8514583333,
+        "highest_thi": 43.3,
+        "lowest_thi": 22.3,
+        "avg_thi": 34.16875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548046800,
+        "highest_temp": 1.43,
+        "lowest_temp": -10.8,
+        "avg_temp": -6.4683333333,
+        "highest_thi": 35.5,
+        "lowest_thi": 12.3,
+        "avg_thi": 20.6229166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548133200,
+        "highest_temp": 7.1,
+        "lowest_temp": -4.17,
+        "avg_temp": 3.134375,
+        "highest_thi": 44.3,
+        "lowest_thi": 24.5,
+        "avg_thi": 38.2166666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548219600,
+        "highest_temp": 5.81,
+        "lowest_temp": 3.24,
+        "avg_temp": 4.6760416667,
+        "highest_thi": 44.2,
+        "lowest_thi": 39.8,
+        "avg_thi": 41.9333333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548306000,
+        "highest_temp": 8.19,
+        "lowest_temp": -0.19,
+        "avg_temp": 5.463125,
+        "highest_thi": 46.8,
+        "lowest_thi": 33.4,
+        "avg_thi": 42.1,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548392400,
+        "highest_temp": 5.9,
+        "lowest_temp": -0.64,
+        "avg_temp": 2.3716666667,
+        "highest_thi": 43.8,
+        "lowest_thi": 33.6,
+        "avg_thi": 38.2791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548478800,
+        "highest_temp": 5.59,
+        "lowest_temp": 0.37,
+        "avg_temp": 3.3620833333,
+        "highest_thi": 43.2,
+        "lowest_thi": 33.3,
+        "avg_thi": 39.3125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548565200,
+        "highest_temp": 6.09,
+        "lowest_temp": 1.98,
+        "avg_temp": 4.1577083333,
+        "highest_thi": 43.7,
+        "lowest_thi": 37.0,
+        "avg_thi": 40.8895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548651600,
+        "highest_temp": 8.21,
+        "lowest_temp": 2.06,
+        "avg_temp": 4.5795833333,
+        "highest_thi": 46.0,
+        "lowest_thi": 34.4,
+        "avg_thi": 40.4708333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548738000,
+        "highest_temp": 6.07,
+        "lowest_temp": 2.8,
+        "avg_temp": 4.478125,
+        "highest_thi": 43.7,
+        "lowest_thi": 36.8,
+        "avg_thi": 41.2729166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548824400,
+        "highest_temp": 5.42,
+        "lowest_temp": -9.97,
+        "avg_temp": 0.4470833333,
+        "highest_thi": 42.4,
+        "lowest_thi": 17.9,
+        "avg_thi": 34.0125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548910800,
+        "highest_temp": 4.91,
+        "lowest_temp": -8.97,
+        "avg_temp": -2.7529166667,
+        "highest_thi": 40.7,
+        "lowest_thi": 17.6,
+        "avg_thi": 27.7958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1548997200,
+        "highest_temp": 7.17,
+        "lowest_temp": -2.31,
+        "avg_temp": 3.2310416667,
+        "highest_thi": 43.9,
+        "lowest_thi": 28.7,
+        "avg_thi": 38.1854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549083600,
+        "highest_temp": 5.61,
+        "lowest_temp": 1.43,
+        "avg_temp": 4.0291666667,
+        "highest_thi": 43.8,
+        "lowest_thi": 33.9,
+        "avg_thi": 40.4375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549170000,
+        "highest_temp": 11.22,
+        "lowest_temp": 4.14,
+        "avg_temp": 7.1672916667,
+        "highest_thi": 52.9,
+        "lowest_thi": 40.0,
+        "avg_thi": 45.59375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549256400,
+        "highest_temp": 17.34,
+        "lowest_temp": 7.09,
+        "avg_temp": 11.1929166667,
+        "highest_thi": 61.2,
+        "lowest_thi": 46.2,
+        "avg_thi": 52.4041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549342800,
+        "highest_temp": 13.11,
+        "lowest_temp": 3.28,
+        "avg_temp": 9.3564583333,
+        "highest_thi": 55.7,
+        "lowest_thi": 38.3,
+        "avg_thi": 49.3854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549429200,
+        "highest_temp": 6.52,
+        "lowest_temp": 2.63,
+        "avg_temp": 5.026875,
+        "highest_thi": 44.6,
+        "lowest_thi": 37.5,
+        "avg_thi": 41.8770833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549515600,
+        "highest_temp": 10.8,
+        "lowest_temp": 3.46,
+        "avg_temp": 7.0122916667,
+        "highest_thi": 51.3,
+        "lowest_thi": 38.0,
+        "avg_thi": 44.5041666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549602000,
+        "highest_temp": 10.95,
+        "lowest_temp": -1.31,
+        "avg_temp": 5.8504166667,
+        "highest_thi": 51.6,
+        "lowest_thi": 34.0,
+        "avg_thi": 43.98125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549688400,
+        "highest_temp": 4.04,
+        "lowest_temp": -4.08,
+        "avg_temp": -0.4245833333,
+        "highest_thi": 41.9,
+        "lowest_thi": 29.1,
+        "avg_thi": 34.0458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549774800,
+        "highest_temp": 6.6,
+        "lowest_temp": 1.96,
+        "avg_temp": 4.431875,
+        "highest_thi": 46.1,
+        "lowest_thi": 37.3,
+        "avg_thi": 41.3020833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549861200,
+        "highest_temp": 6.44,
+        "lowest_temp": 2.81,
+        "avg_temp": 4.8502083333,
+        "highest_thi": 44.9,
+        "lowest_thi": 38.5,
+        "avg_thi": 42.3145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1549947600,
+        "highest_temp": 6.34,
+        "lowest_temp": 2.79,
+        "avg_temp": 4.5052083333,
+        "highest_thi": 44.2,
+        "lowest_thi": 38.8,
+        "avg_thi": 41.1958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550034000,
+        "highest_temp": 6.83,
+        "lowest_temp": 1.89,
+        "avg_temp": 4.3702083333,
+        "highest_thi": 44.8,
+        "lowest_thi": 37.1,
+        "avg_thi": 40.9604166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550120400,
+        "highest_temp": 7.12,
+        "lowest_temp": 1.18,
+        "avg_temp": 4.9185416667,
+        "highest_thi": 47.1,
+        "lowest_thi": 34.6,
+        "avg_thi": 42.2416666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550206800,
+        "highest_temp": 9.66,
+        "lowest_temp": 4.22,
+        "avg_temp": 6.4497916667,
+        "highest_thi": 50.7,
+        "lowest_thi": 42.1,
+        "avg_thi": 46.0458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550293200,
+        "highest_temp": 5.9,
+        "lowest_temp": 0.48,
+        "avg_temp": 3.1922916667,
+        "highest_thi": 45.1,
+        "lowest_thi": 35.3,
+        "avg_thi": 39.5895833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550379600,
+        "highest_temp": 6.91,
+        "lowest_temp": 3.02,
+        "avg_temp": 4.8879166667,
+        "highest_thi": 44.8,
+        "lowest_thi": 38.6,
+        "avg_thi": 41.9,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550466000,
+        "highest_temp": 6.87,
+        "lowest_temp": 2.19,
+        "avg_temp": 4.20375,
+        "highest_thi": 45.3,
+        "lowest_thi": 36.5,
+        "avg_thi": 40.11875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550552400,
+        "highest_temp": 6.5,
+        "lowest_temp": -2.26,
+        "avg_temp": 3.9410416667,
+        "highest_thi": 45.0,
+        "lowest_thi": 30.1,
+        "avg_thi": 39.725,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550638800,
+        "highest_temp": 5.23,
+        "lowest_temp": 0.41,
+        "avg_temp": 3.828125,
+        "highest_thi": 42.8,
+        "lowest_thi": 33.6,
+        "avg_thi": 39.7916666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550725200,
+        "highest_temp": 6.73,
+        "lowest_temp": 3.5,
+        "avg_temp": 4.9677083333,
+        "highest_thi": 45.7,
+        "lowest_thi": 39.0,
+        "avg_thi": 42.2791666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550811600,
+        "highest_temp": 6.31,
+        "lowest_temp": 3.21,
+        "avg_temp": 4.52125,
+        "highest_thi": 44.5,
+        "lowest_thi": 38.9,
+        "avg_thi": 41.6229166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550898000,
+        "highest_temp": 7.94,
+        "lowest_temp": 3.31,
+        "avg_temp": 5.4547916667,
+        "highest_thi": 48.0,
+        "lowest_thi": 38.7,
+        "avg_thi": 43.1854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1550984400,
+        "highest_temp": 9.29,
+        "lowest_temp": 3.09,
+        "avg_temp": 5.7291666667,
+        "highest_thi": 49.0,
+        "lowest_thi": 39.3,
+        "avg_thi": 43.28125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551070800,
+        "highest_temp": 5.86,
+        "lowest_temp": -2.98,
+        "avg_temp": 0.7427083333,
+        "highest_thi": 44.6,
+        "lowest_thi": 31.7,
+        "avg_thi": 36.76875,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551157200,
+        "highest_temp": 5.47,
+        "lowest_temp": -2.48,
+        "avg_temp": 0.8477083333,
+        "highest_thi": 42.8,
+        "lowest_thi": 31.8,
+        "avg_thi": 35.925,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551243600,
+        "highest_temp": 5.33,
+        "lowest_temp": 0.02,
+        "avg_temp": 3.216875,
+        "highest_thi": 43.0,
+        "lowest_thi": 33.7,
+        "avg_thi": 38.9854166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551330000,
+        "highest_temp": 7.4,
+        "lowest_temp": 0.76,
+        "avg_temp": 3.8854166667,
+        "highest_thi": 44.8,
+        "lowest_thi": 34.9,
+        "avg_thi": 39.5354166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551416400,
+        "highest_temp": 6.95,
+        "lowest_temp": 1.13,
+        "avg_temp": 4.5122916667,
+        "highest_thi": 46.2,
+        "lowest_thi": 35.1,
+        "avg_thi": 41.1520833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551502800,
+        "highest_temp": 8.32,
+        "lowest_temp": 4.35,
+        "avg_temp": 6.1208333333,
+        "highest_thi": 47.3,
+        "lowest_thi": 41.0,
+        "avg_thi": 43.9958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551589200,
+        "highest_temp": 7.45,
+        "lowest_temp": 1.9,
+        "avg_temp": 4.7258333333,
+        "highest_thi": 46.1,
+        "lowest_thi": 36.0,
+        "avg_thi": 41.3270833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551675600,
+        "highest_temp": 6.53,
+        "lowest_temp": -1.14,
+        "avg_temp": 3.9195833333,
+        "highest_thi": 44.2,
+        "lowest_thi": 33.6,
+        "avg_thi": 40.14375,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551762000,
+        "highest_temp": 6.72,
+        "lowest_temp": -4.26,
+        "avg_temp": 1.63875,
+        "highest_thi": 44.2,
+        "lowest_thi": 26.8,
+        "avg_thi": 36.3729166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551848400,
+        "highest_temp": 5.62,
+        "lowest_temp": -6.11,
+        "avg_temp": -1.1302083333,
+        "highest_thi": 43.3,
+        "lowest_thi": 25.4,
+        "avg_thi": 32.6354166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1551934800,
+        "highest_temp": 5.26,
+        "lowest_temp": -5.14,
+        "avg_temp": 1.3070833333,
+        "highest_thi": 41.8,
+        "lowest_thi": 27.7,
+        "avg_thi": 36.1125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552021200,
+        "highest_temp": 7.2,
+        "lowest_temp": -2.58,
+        "avg_temp": 2.8995833333,
+        "highest_thi": 46.9,
+        "lowest_thi": 27.4,
+        "avg_thi": 38.4833333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552107600,
+        "highest_temp": 8.69,
+        "lowest_temp": 1.43,
+        "avg_temp": 4.9310416667,
+        "highest_thi": 49.6,
+        "lowest_thi": 35.4,
+        "avg_thi": 42.4645833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552194000,
+        "highest_temp": 7.83,
+        "lowest_temp": 2.45,
+        "avg_temp": 5.1972916667,
+        "highest_thi": 46.8,
+        "lowest_thi": 37.9,
+        "avg_thi": 43.2604166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552276800,
+        "highest_temp": 7.16,
+        "lowest_temp": 2.69,
+        "avg_temp": 4.7339583333,
+        "highest_thi": 45.0,
+        "lowest_thi": 40.1,
+        "avg_thi": 42.5958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552363200,
+        "highest_temp": 5.85,
+        "lowest_temp": 0.54,
+        "avg_temp": 2.6558333333,
+        "highest_thi": 44.5,
+        "lowest_thi": 35.8,
+        "avg_thi": 39.0520833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552449600,
+        "highest_temp": 9.0,
+        "lowest_temp": 2.75,
+        "avg_temp": 5.4585416667,
+        "highest_thi": 50.5,
+        "lowest_thi": 37.3,
+        "avg_thi": 43.6416666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552536000,
+        "highest_temp": 16.81,
+        "lowest_temp": 7.21,
+        "avg_temp": 11.0289583333,
+        "highest_thi": 60.7,
+        "lowest_thi": 47.2,
+        "avg_thi": 52.8708333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552622400,
+        "highest_temp": 16.86,
+        "lowest_temp": 8.86,
+        "avg_temp": 14.06625,
+        "highest_thi": 60.7,
+        "lowest_thi": 48.9,
+        "avg_thi": 57.0479166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552708800,
+        "highest_temp": 10.05,
+        "lowest_temp": -0.2,
+        "avg_temp": 3.0727083333,
+        "highest_thi": 50.4,
+        "lowest_thi": 33.2,
+        "avg_thi": 39.93125,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552795200,
+        "highest_temp": 5.76,
+        "lowest_temp": 0.43,
+        "avg_temp": 2.6864583333,
+        "highest_thi": 44.6,
+        "lowest_thi": 36.6,
+        "avg_thi": 39.3458333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552881600,
+        "highest_temp": 7.92,
+        "lowest_temp": 1.84,
+        "avg_temp": 4.264375,
+        "highest_thi": 46.2,
+        "lowest_thi": 35.7,
+        "avg_thi": 41.1979166667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1552968000,
+        "highest_temp": 7.32,
+        "lowest_temp": 3.13,
+        "avg_temp": 5.083125,
+        "highest_thi": 46.9,
+        "lowest_thi": 36.9,
+        "avg_thi": 42.1208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553054400,
+        "highest_temp": 12.57,
+        "lowest_temp": 2.49,
+        "avg_temp": 6.7864583333,
+        "highest_thi": 55.2,
+        "lowest_thi": 38.0,
+        "avg_thi": 45.7395833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553140800,
+        "highest_temp": 9.53,
+        "lowest_temp": 5.51,
+        "avg_temp": 7.533125,
+        "highest_thi": 51.2,
+        "lowest_thi": 42.9,
+        "avg_thi": 47.60625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553227200,
+        "highest_temp": 7.98,
+        "lowest_temp": 2.93,
+        "avg_temp": 5.3739583333,
+        "highest_thi": 45.9,
+        "lowest_thi": 38.2,
+        "avg_thi": 42.1291666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553313600,
+        "highest_temp": 5.66,
+        "lowest_temp": -1.67,
+        "avg_temp": 2.2222916667,
+        "highest_thi": 45.5,
+        "lowest_thi": 32.1,
+        "avg_thi": 38.0208333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553400000,
+        "highest_temp": 10.18,
+        "lowest_temp": 2.6,
+        "avg_temp": 6.2260416667,
+        "highest_thi": 52.1,
+        "lowest_thi": 38.9,
+        "avg_thi": 45.5145833333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553486400,
+        "highest_temp": 8.55,
+        "lowest_temp": 2.89,
+        "avg_temp": 4.9945833333,
+        "highest_thi": 48.0,
+        "lowest_thi": 39.3,
+        "avg_thi": 43.75625,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553572800,
+        "highest_temp": 5.53,
+        "lowest_temp": 0.23,
+        "avg_temp": 3.7135416667,
+        "highest_thi": 46.3,
+        "lowest_thi": 36.2,
+        "avg_thi": 42.0958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553659200,
+        "highest_temp": 10.22,
+        "lowest_temp": 1.09,
+        "avg_temp": 5.3904166667,
+        "highest_thi": 53.2,
+        "lowest_thi": 35.3,
+        "avg_thi": 44.1958333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553745600,
+        "highest_temp": 14.71,
+        "lowest_temp": 3.66,
+        "avg_temp": 7.9014583333,
+        "highest_thi": 58.1,
+        "lowest_thi": 43.0,
+        "avg_thi": 49.4916666667,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553832000,
+        "highest_temp": 12.49,
+        "lowest_temp": 5.4,
+        "avg_temp": 9.2495833333,
+        "highest_thi": 55.2,
+        "lowest_thi": 42.1,
+        "avg_thi": 49.3333333333,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1553918400,
+        "highest_temp": 19.0,
+        "lowest_temp": 7.3,
+        "avg_temp": 11.7797916667,
+        "highest_thi": 63.8,
+        "lowest_thi": 45.2,
+        "avg_thi": 53.0,
+        "num_records_on_day": 48
+    },
+    {
+        "Date": 1554004800,
+        "highest_temp": 18.08,
+        "lowest_temp": 4.07,
+        "avg_temp": 13.7909090909,
+        "highest_thi": 62.7,
+        "lowest_thi": 39.9,
+        "avg_thi": 55.8454545455,
+        "num_records_on_day": 22
+    }
+]

@@ -83,22 +83,13 @@ function App() {
             data: [dataChart, dataChart],
             xField: 'Date',
             yField: ['avg_Yield(gr)', 'avg_temp'],
-            // data: [weather, cow],
-            // xField: 'Date',
-            // yField: ['avg_temp', 'Yield(gr)'],
             geometryOptions: [
                 {
                     geometry: 'line',
                     smooth: true,
                     color: '#5B8FF9',
-                    // label: {
-                    //     formatter: (datum) => {
-                    //         return `${datum.value}个`;
-                    //     },
-                    // },
                     lineStyle: {
                         lineWidth: 3,
-                        // lineDash: [5, 5],
                     },
                 },
                 {
@@ -107,22 +98,7 @@ function App() {
                     color: '#5AD8A6',
                     lineStyle: {
                         lineWidth: 3,
-                        // opacity: 0.5,
                     },
-                    // label: {
-                    //     formatter: (datum) => {
-                    //         return `${datum.count}个`;
-                    //     },
-                    // },
-                    // point: {
-                    //     shape: 'circle',
-                    //     size: 4,
-                    //     style: {
-                    //         opacity: 0.5,
-                    //         stroke: '#5AD8A6',
-                    //         fill: '#fff',
-                    //     },
-                    // },
                 },
             ],
         };
