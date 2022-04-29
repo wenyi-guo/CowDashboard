@@ -2,6 +2,7 @@ from flask import Flask
 from azure.cosmos import exceptions, CosmosClient, PartitionKey
 import pandas as pd
 import json
+from datetime import datetime
 
 endpoint = "https://diaryinstance.documents.azure.com:443/"
 
@@ -68,6 +69,8 @@ def milk_sum():
     milk_df = milk_df.groupby(milk_df['Date']).aggregate(aggregation_functions)
     df = pd.merge(milk_df, weather_df, on="Date")
     df = df.drop(['Lactation_Num'], axis=1)
+    # print(datetime.utcfromtimestamp(x).strftime('%Y-%m-%d %H:%M:%S'))
+    df['Date'] = df['Date'].dt.strftime('%Y-%m-%d')
 
     result = df.to_json(orient="records")
     parsed = json.loads(result)
