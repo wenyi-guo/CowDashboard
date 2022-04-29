@@ -47,38 +47,6 @@ function App() {
 
     const DemoDualAxes = () => {
         const dataChart = data.sum
-        const cow = [
-            {
-                "Yield(gr)": 1160714,
-                "Date": 1521432000
-            },
-            {
-
-                "Yield(gr)": 257949,
-                "Date": 1521432022
-            },
-            {
-                "Yield(gr)": 85665,
-                "Date": 1521432003
-            },
-        ]
-        const testdata = [
-            {
-                year: '1991',
-                value: 3,
-                count: 10,
-            },
-            {
-                year: '1992',
-                value: 4,
-                count: 4,
-            },
-            {
-                year: '1994',
-                value: 5,
-                count: 5,
-            },
-        ];
         const config = {
             data: [dataChart, dataChart],
             xField: 'Date',
