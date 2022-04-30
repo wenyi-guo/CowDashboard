@@ -24,7 +24,28 @@ function App() {
         console.log('params', pagination, filters, sorter, extra);
     }
 
-    const renderTable = () => {
+    const renderTableMilk = () => {
+        console.log("data is ", Object.keys(data.milk[0]))
+        const columns = Object.keys(data.milk[0]).map((mem, i) => {
+            console.log("-------", mem, i)
+            return {
+                title: mem,
+                dataIndex: mem,
+                key: mem,
+                sorter: (a, b) => a[mem] - b[mem],
+                defaultSortOrder: mem === 'Date' ? 'descend' : console.log()
+            }
+        })
+        const tableData = data.milk
+
+        console.log("columns ", columns)
+        // console.log("tableData ", tableData)
+
+
+        return <Table columns={columns} dataSource={tableData} onChange={onChange} />
+    }
+
+    const renderTableWeather = () => {
         console.log("data is ", Object.keys(data.weather[0]))
         const columns = Object.keys(data.weather[0]).map((mem, i) => {
             console.log("-------", mem, i)
@@ -47,38 +68,6 @@ function App() {
 
     const DemoDualAxes = () => {
         const dataChart = data.sum
-        const cow = [
-            {
-                "Yield(gr)": 1160714,
-                "Date": 1521432000
-            },
-            {
-
-                "Yield(gr)": 257949,
-                "Date": 1521432022
-            },
-            {
-                "Yield(gr)": 85665,
-                "Date": 1521432003
-            },
-        ]
-        const testdata = [
-            {
-                year: '1991',
-                value: 3,
-                count: 10,
-            },
-            {
-                year: '1992',
-                value: 4,
-                count: 4,
-            },
-            {
-                year: '1994',
-                value: 5,
-                count: 5,
-            },
-        ];
         const config = {
             data: [dataChart, dataChart],
             xField: 'Date',
@@ -115,9 +104,27 @@ function App() {
                         </div>
                         <div class="card-body">
                             <div>
+                                {(typeof data.milk === 'undefined') ? (
+                                    <p> Loading ... </p>
+                                ) : renderTableMilk()
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">Weather Overview</h6>
+                        </div>
+                        <div class="card-body">
+                            <div>
                                 {(typeof data.weather === 'undefined') ? (
                                     <p> Loading ... </p>
-                                ) : renderTable()
+                                ) : renderTableWeather()
                                 }
                             </div>
                         </div>
@@ -133,7 +140,7 @@ function App() {
                         </div>
                         <div class="card-body">
                             <div>
-                                {(typeof data.weather === 'undefined') ? (
+                                {(typeof data.sum === 'undefined') ? (
                                     <p> Loading ... </p>
                                 ) :
                                     <DemoDualAxes />
