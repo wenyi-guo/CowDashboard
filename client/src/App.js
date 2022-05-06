@@ -3,6 +3,7 @@ import { Table } from 'antd';
 // import 'antd/dist/antd.less';
 import 'antd/dist/antd.css';
 import { DualAxes } from '@ant-design/plots';
+import { yellow } from '@mui/material/colors';
 
 
 function App() {
@@ -32,7 +33,20 @@ function App() {
                 title: mem,
                 dataIndex: mem,
                 key: mem,
-                sorter: (a, b) => a[mem] - b[mem],
+                sorter: function (a, b) {
+                    if (mem === 'Date') {
+                        return new Date(a[mem]) - new Date(b[mem])
+                    } else if (mem === 'Lactation number') {
+                        if (a[mem] === '3+') {
+                            return 1
+                        }
+                        if (b[mem] === '3+') {
+                            return -1
+                        }
+                        return a[mem] - b[mem]
+                    }
+                    return a[mem] - b[mem]
+                },
                 defaultSortOrder: mem === 'Date' ? 'descend' : console.log()
             }
         })
@@ -53,7 +67,20 @@ function App() {
                 title: mem,
                 dataIndex: mem,
                 key: mem,
-                sorter: (a, b) => a[mem] - b[mem],
+                sorter: function (a, b) {
+                    if (mem === 'Date') {
+                        return new Date(a[mem]) - new Date(b[mem])
+                    } else if (mem === 'Lactation number') {
+                        if (a[mem] === '3+') {
+                            return 1
+                        }
+                        if (b[mem] === '3+') {
+                            return -1
+                        }
+                        return a[mem] - b[mem]
+                    }
+                    return a[mem] - b[mem]
+                },
                 defaultSortOrder: mem === 'Date' ? 'descend' : console.log()
             }
         })
@@ -71,7 +98,7 @@ function App() {
         const config = {
             data: [dataChart, dataChart],
             xField: 'Date',
-            yField: ['avg_Yield(gr)', 'avg_temp'],
+            yField: ['Average yield (lb)', 'Average temperature (°C)'],
             geometryOptions: [
                 {
                     geometry: 'line',
