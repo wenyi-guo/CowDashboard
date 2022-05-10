@@ -268,6 +268,23 @@ async def provision_device(provisioning_host, id_scope, registration_id, symmetr
     provisioning_device_client.provisioning_payload = {"modelId": model_id}
     return await provisioning_device_client.register()
 
+def getRandomTime(type):
+    year = 2019
+    month = random.randrange(1, 12)
+    day = random.randrange(1,30)
+    ret = ""
+    if type == "milk":
+        1/1/2019
+        ret = f"{day}/{month}/{year}"
+    elif type == "rum":
+        month = "{:02d}".format(month)
+        day = "{:02d}".format(day)
+        ret = f"{year}/{month}/{day} 01:00:12.575757+00"
+    else:
+        month = "{:02d}".format(month)
+        day = "{:02d}".format(day)
+        ret = f"{month}/{day}/19 15:25:00"
+    return ret
 
 async def main():
     conn_str = ''
@@ -358,28 +375,26 @@ async def main():
 
             if args.type == "rumination":
                 message = {
-                    "id": 456,
                     "cow_id": 2020,
                     "total_eating": random.randrange(0, 20),
                     "total_rumination": random.randrange(0, 40),
-                    "observation_time": "2019-01-01 01:00:12.575757+00",
+                    "observation_time": getRandomTime("rum"),
                     "hour_complete": 2,
                     "local_id": 25,
-
                 }
             elif args.type == "milk":
                 message = {
-                    "datesql": "1/1/2019",
+                    "datesql": getRandomTime("milk"),
                     "Animal_ID": 100,
                     "Group_ID": 10,
-                    "Lactation_Num": 3,
-                    "Yield": 59698,
+                    "Lactation_Num": random.randrange(1,4),
+                    "Yield": random.randrange(40000, 65000),
                     "Gynecology_Status": "Pregnant",
                     "Avg_Fat(%)": 1
                 }
             elif args.type == "weather":
                 message = {
-                    "Date": "01/01/19 15:25:00",
+                    "Date": getRandomTime("weather"),
                     "AvgBGTemp__P4": random.randrange(10, 30),
                     "THI_P4": random.randrange(40, 60),
                 }
