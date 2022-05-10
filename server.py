@@ -4,6 +4,7 @@ import pandas as pd
 import json
 from datetime import datetime
 import time
+from runmination_process import process_rumination
 
 endpoint = "https://diaryinstance.documents.azure.com:443/"
 
@@ -106,6 +107,14 @@ def milk_sum():
         enable_cross_partition_query=True
     ))
     rum_df = pd.read_json(json.dumps(items_rum), orient='records')
+    query_rum_temp = """SELECT c.observation_time, c.total_eating, c.total_rumination FROM c"""
+    items_rum_temp = list(rum_input_container.query_items(
+        query=query_rum_temp,
+        enable_cross_partition_query=True
+    ))
+    processed_rum = process_rumination(items_rum_temp)
+    rum_df = rum_df.append(processed_rum) if not processed_rum.empty else rum_df
+
     rum_df['Date'] = rum_df['Date'].dt.strftime('%Y-%m-%d')
     rum_df.rename(columns={'total_rumination': 'Total rumination',
                            'total_eating': 'Total eating'}, inplace=True)
@@ -113,6 +122,7 @@ def milk_sum():
         rum_df['rumination_count']
     rum_df['Average eating'] = rum_df['Total eating'] / rum_df['eating_count']
     parsed_rum = json.loads(rum_df.to_json(orient="records"))
+
 
     query_milk = """SELECT c.id, c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
     items_milk = list(milk_container.query_items(
