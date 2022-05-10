@@ -361,11 +361,11 @@ async def main():
                 }
             elif args.type == "milk":
                 message = {
-                    "datesql": "1 / 1 / 2019",
+                    "datesql": "1/1/2019",
                     "Animal_ID": 100,
                     "Group_ID": 10,
                     "Lactation_Num": 3,
-                    "Yield(gr)": 59698,
+                    "Yield": 59698,
                     "Gynecology_Status": "Pregnant",
                     "Avg_Fat(%)": 1
                 }

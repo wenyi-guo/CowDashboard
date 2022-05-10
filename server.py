@@ -3,6 +3,7 @@ from azure.cosmos import exceptions, CosmosClient, PartitionKey
 import pandas as pd
 import json
 from datetime import datetime
+import time
 
 endpoint = "https://diaryinstance.documents.azure.com:443/"
 
@@ -26,6 +27,24 @@ rum_container = database.create_container_if_not_exists(
     partition_key=PartitionKey(path="/id"),
     offer_throughput=400
 )
+database_name_temp = "dairyTemp"
+database_temp = client.create_database_if_not_exists(id=database_name_temp)
+milk_input_container = database_temp.create_container_if_not_exists(
+    id="milk_temp",
+    partition_key=PartitionKey(path="/id"),
+    offer_throughput=400
+)
+rum_input_container = database_temp.create_container_if_not_exists(
+    id="rum_temp",
+    partition_key=PartitionKey(path="/id"),
+    offer_throughput=400
+)
+weather_input_container = database_temp.create_container_if_not_exists(
+    id="weather_temp",
+    partition_key=PartitionKey(path="/id"),
+    offer_throughput=400
+)
+
 
 gram_to_lb = 0.00220462
 
@@ -55,6 +74,29 @@ def milk():
     print(type(items[0]['Date']))
     return {"milk": items}
 
+def time_str_to_unix(time_str):
+    # print(time_str.timestamp())
+    return time_str.timestamp()
+
+def process_milk_input():
+    query_milk_input = """SELECT c.Date, c.Lactation_Num, c.Yield FROM c"""
+    
+    items_milk_input = list(milk_input_container.query_items(
+        query=query_milk_input,
+        enable_cross_partition_query=True
+    ))
+    milk_input_data = pd.read_json(json.dumps(items_milk_input), orient='records')
+
+    milk_df_input = pd.DataFrame([], columns = ['Date', 'Lactation_Num','Yield(gr)','Cow_Num'])
+    for index, row in milk_input_data.iterrows():
+        if row['Yield'] > 0:
+            milk_df_input = milk_df_input.append({'Date': row['Date'], 'Lactation_Num':row["Lactation_Num"], 'Yield(gr)': row['Yield'], 'Cow_Num': 1}, ignore_index=True)
+
+    new_df = milk_df_input.groupby(['Date','Lactation_Num'], as_index=False).agg({"Yield(gr)": 'sum', 'Cow_Num':'sum'})
+    for index, row in new_df.iterrows():
+        new_df['id'] = str(time_str_to_unix(row['Date']))+"_"+str(float(row['Lactation_Num']))
+    return new_df
+
 
 @app.route("/sum")
 def milk_sum():
@@ -72,12 +114,15 @@ def milk_sum():
     rum_df['Average eating'] = rum_df['Total eating'] / rum_df['eating_count']
     parsed_rum = json.loads(rum_df.to_json(orient="records"))
 
-    query_milk = """SELECT c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
+    query_milk = """SELECT c.id, c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
     items_milk = list(milk_container.query_items(
         query=query_milk,
         enable_cross_partition_query=True
     ))
     milk_df = pd.read_json(json.dumps(items_milk), orient='records')
+    milk_input_df = process_milk_input()
+    milk_df = milk_df.append(milk_input_df)
+
     milk_df['Date'] = milk_df['Date'].dt.strftime('%Y-%m-%d')
 
     milk_df['Yield(gr)'] = milk_df['Yield(gr)'] * gram_to_lb
