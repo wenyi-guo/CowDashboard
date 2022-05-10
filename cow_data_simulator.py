@@ -271,8 +271,8 @@ async def provision_device(provisioning_host, id_scope, registration_id, symmetr
 
 def getRandomTime(type):
     year = 2019
-    month = random.randrange(1, 12)
-    day = random.randrange(1, 30)
+    month = 1
+    day = random.randrange(1, 28)
     ret = ""
     if type == "milk":
         1/1/2019
