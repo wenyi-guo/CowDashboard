@@ -275,7 +275,6 @@ def getRandomTime(type):
     day = random.randrange(1, 28)
     ret = ""
     if type == "milk":
-        1/1/2019
         ret = f"{day}/{month}/{year}"
     elif type == "rum":
         month = "{:02d}".format(month)
