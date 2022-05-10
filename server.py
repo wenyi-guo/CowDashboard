@@ -74,28 +74,91 @@ def milk():
     print(type(items[0]['Date']))
     return {"milk": items}
 
+
 def time_str_to_unix(time_str):
     # print(time_str.timestamp())
     return time_str.timestamp()
 
+
 def process_milk_input():
     query_milk_input = """SELECT c.Date, c.Lactation_Num, c.Yield FROM c"""
-    
+
     items_milk_input = list(milk_input_container.query_items(
         query=query_milk_input,
         enable_cross_partition_query=True
     ))
-    milk_input_data = pd.read_json(json.dumps(items_milk_input), orient='records')
+    milk_input_data = pd.read_json(
+        json.dumps(items_milk_input), orient='records')
 
-    milk_df_input = pd.DataFrame([], columns = ['Date', 'Lactation_Num','Yield(gr)','Cow_Num'])
+    milk_df_input = pd.DataFrame(
+        [], columns=['Date', 'Lactation_Num', 'Yield(gr)', 'Cow_Num'])
     for index, row in milk_input_data.iterrows():
         if row['Yield'] > 0:
-            milk_df_input = milk_df_input.append({'Date': row['Date'], 'Lactation_Num':row["Lactation_Num"], 'Yield(gr)': row['Yield'], 'Cow_Num': 1}, ignore_index=True)
+            milk_df_input = milk_df_input.append(
+                {'Date': row['Date'], 'Lactation_Num': row["Lactation_Num"], 'Yield(gr)': row['Yield'], 'Cow_Num': 1}, ignore_index=True)
 
-    new_df = milk_df_input.groupby(['Date','Lactation_Num'], as_index=False).agg({"Yield(gr)": 'sum', 'Cow_Num':'sum'})
+    new_df = milk_df_input.groupby(['Date', 'Lactation_Num'], as_index=False).agg({
+        "Yield(gr)": 'sum', 'Cow_Num': 'sum'})
     for index, row in new_df.iterrows():
-        new_df['id'] = str(time_str_to_unix(row['Date']))+"_"+str(float(row['Lactation_Num']))
+        new_df['id'] = str(time_str_to_unix(row['Date'])) + \
+            "_"+str(float(row['Lactation_Num']))
     return new_df
+
+
+def process_weather_input():
+    query_weather_input = """SELECT c.Date, c["AvgBGTemp__P4"], c["THI_P4"] FROM c"""
+
+    items_weather_input = list(weather_input_container.query_items(
+        query=query_weather_input,
+        enable_cross_partition_query=True
+    ))
+    weather_input_data = pd.read_json(
+        json.dumps(items_weather_input), orient='records')
+    newWeather = pd.DataFrame(columns=[
+        'Date', 'highest_temp', 'lowest_temp', 'avg_temp', 'highest_thi', 'lowest_thi', 'avg_thi', 'num_records_on_day'])
+    first_row = weather_input_data.iloc[0]
+    new_first_row = {}
+    new_first_row['highest_temp'] = first_row['AvgBGTemp__P4']
+    new_first_row['lowest_temp'] = first_row['AvgBGTemp__P4']
+    new_first_row['avg_temp'] = first_row['AvgBGTemp__P4']
+    new_first_row['highest_thi'] = first_row['THI_P4']
+    new_first_row['lowest_thi'] = first_row['THI_P4']
+    new_first_row['avg_thi'] = first_row['THI_P4']
+    new_first_row['num_records_on_day'] = 1
+    newWeather.loc[0] = new_first_row
+
+    for i, row in weather_input_data.iterrows():
+        if i != 0:
+            last_i = len(newWeather)-1
+            last_row = (newWeather.loc[last_i]).copy()
+            if row['Date'] == last_row['Date']:
+                if row['AvgBGTemp__P4'] > last_row['highest_temp']:
+                    last_row['highest_temp'] = row['AvgBGTemp__P4']
+                if row['AvgBGTemp__P4'] < last_row['lowest_temp']:
+                    last_row['lowest_temp'] = row['AvgBGTemp__P4']
+                if row['THI_P4'] > last_row['highest_thi']:
+                    last_row['highest_thi'] = row['THI_P4']
+                if row['THI_P4'] < last_row['lowest_thi']:
+                    last_row['lowest_thi'] = row['THI_P4']
+                last_row['avg_temp'] = (last_row['avg_temp'] *
+                                        last_row['num_records_on_day'] + row['AvgBGTemp__P4']) / (last_row['num_records_on_day'] + 1)
+                last_row['avg_thi'] = (last_row['avg_thi'] *
+                                       last_row['num_records_on_day'] + row['THI_P4']) / (last_row['num_records_on_day'] + 1)
+                last_row['num_records_on_day'] += 1
+                newWeather.loc[len(newWeather)-1] = last_row
+            else:
+                new_row = {}
+                new_row['Date'] = row['Date']
+                new_row['highest_temp'] = row['AvgBGTemp__P4']
+                new_row['lowest_temp'] = row['AvgBGTemp__P4']
+                new_row['avg_temp'] = row['AvgBGTemp__P4']
+                new_row['highest_thi'] = row['THI_P4']
+                new_row['lowest_thi'] = row['THI_P4']
+                new_row['avg_thi'] = row['THI_P4']
+                new_row['num_records_on_day'] = 1
+                newWeather.loc[len(newWeather)] = new_row
+
+        return newWeather
 
 
 @app.route("/sum")
@@ -121,7 +184,8 @@ def milk_sum():
     ))
     milk_df = pd.read_json(json.dumps(items_milk), orient='records')
     milk_input_df = process_milk_input()
-    milk_df = milk_df.append(milk_input_df)
+    if not milk_input_df.empty:
+        milk_df = milk_df.append(milk_input_df)
 
     milk_df['Date'] = milk_df['Date'].dt.strftime('%Y-%m-%d')
 
@@ -136,9 +200,15 @@ def milk_sum():
         enable_cross_partition_query=True
     ))
     weather_df = pd.read_json(json.dumps(items_weather), orient='records')
+    print("weather_df--------", weather_df.iloc[1]['Date'])
     weather_df['Date'] = weather_df['Date'].dt.strftime('%Y-%m-%d')
     weather_df.rename(columns={'avg_temp': 'Average temperature (°C)', 'avg_thi': 'Average THI', 'highest_temp': 'Highest temperature',
                                'highest_thi': 'Highest THI', 'lowest_temp': 'Lowest temperature', 'lowest_thi': 'Lowest THI'}, inplace=True)
+    weather_input_df = process_weather_input()
+    print("-----here", weather_input_df.iloc[0])
+    print("-----here", weather_df.iloc[0])
+    if not weather_input_df:
+        weather_df = pd.concat([weather_df, weather_input_df])
 
     aggregation_functions = {'Lactation number': 'first',
                              'Yield (lb)': 'sum', 'Cow_Num': 'sum'}
@@ -157,6 +227,7 @@ def milk_sum():
     milk_df['Average yield (lb)'] = (milk_df['Yield (lb)']/milk_df['Cow_Num'])
     milk_df = milk_df.astype({"Average yield (lb)": int})
     milk_df = milk_df.drop(['Cow_Num'], axis=1)
+    milk_df = milk_df.drop(['id'], axis=1)
     result_milk = milk_df.to_json(orient="records")
     parsed_milk = json.loads(result_milk)
 
