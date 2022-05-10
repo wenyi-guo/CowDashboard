@@ -21,6 +21,11 @@ milk_container = database.create_container_if_not_exists(
     partition_key=PartitionKey(path="/id"),
     offer_throughput=400
 )
+rum_container = database.create_container_if_not_exists(
+    id="rumination",
+    partition_key=PartitionKey(path="/id"),
+    offer_throughput=400
+)
 
 gram_to_lb = 0.00220462
 
@@ -53,6 +58,20 @@ def milk():
 
 @app.route("/sum")
 def milk_sum():
+    query_rum = """SELECT c.Date, c.total_rumination, c.total_eating, c.rumination_count, c.eating_count FROM c"""
+    items_rum = list(rum_container.query_items(
+        query=query_rum,
+        enable_cross_partition_query=True
+    ))
+    rum_df = pd.read_json(json.dumps(items_rum), orient='records')
+    rum_df['Date'] = rum_df['Date'].dt.strftime('%Y-%m-%d')
+    rum_df.rename(columns={'total_rumination': 'Total rumination',
+                           'total_eating': 'Total eating'}, inplace=True)
+    rum_df['Average rumination'] = rum_df['Total rumination'] / \
+        rum_df['rumination_count']
+    rum_df['Average eating'] = rum_df['Total eating'] / rum_df['eating_count']
+    parsed_rum = json.loads(rum_df.to_json(orient="records"))
+
     query_milk = """SELECT c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
     items_milk = list(milk_container.query_items(
         query=query_milk,
@@ -99,7 +118,7 @@ def milk_sum():
     result_weather = weather_df.to_json(orient="records")
     parsed_weather = json.loads(result_weather)
 
-    return {"milk": parsed_milk, "weather": parsed_weather, "sum": parsed_sum}
+    return {"milk": parsed_milk, "weather": parsed_weather, "sum": parsed_sum, "rum": parsed_rum}
 
 
 if __name__ == "__main__":

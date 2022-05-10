@@ -4,7 +4,7 @@ import { Table } from 'antd';
 import 'antd/dist/antd.css';
 import { DualAxes } from '@ant-design/plots';
 import Milk from './milk';
-
+import Rum from './rumination';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
 
     const renderTab = () => {
-        let ret = type == "milk-type" ? <Milk data={data} /> : <div>hello world</div>
+        let ret = type == "milk-type" ? <Milk data={data} /> : <Rum data={data} />
 
         const handleType = (event) => {
             setType(event.target.id)
@@ -72,6 +72,10 @@ function App() {
 
                         {/* <!-- Topbar --> */}
                         <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                            {/* <!-- Page Heading --> */}
+                            <div className="d-sm-flex align-items-center justify-content-between mb-4">
+                                <h1 className="h3 mb-0 text-gray-800" id="title" >Cow Performance Dashboard</h1>
+                            </div>
 
                             {/* <!-- Sidebar Toggle (Topbar) --> */}
                             <button id="sidebarToggleTop" className="btn btn-link d-md-none rounded-circle mr-3">
@@ -87,10 +91,7 @@ function App() {
                         {/* <!-- Begin Page Content --> */}
                         <div className="container-fluid">
 
-                            {/* <!-- Page Heading --> */}
-                            <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                                <h1 className="h3 mb-0 text-gray-800">Cow Performance Dashboard</h1>
-                            </div>
+
 
                             <div id="milk">
                                 {ret}
