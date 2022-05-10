@@ -268,10 +268,11 @@ async def provision_device(provisioning_host, id_scope, registration_id, symmetr
     provisioning_device_client.provisioning_payload = {"modelId": model_id}
     return await provisioning_device_client.register()
 
+
 def getRandomTime(type):
     year = 2019
     month = random.randrange(1, 12)
-    day = random.randrange(1,30)
+    day = random.randrange(1, 30)
     ret = ""
     if type == "milk":
         1/1/2019
@@ -286,16 +287,17 @@ def getRandomTime(type):
         ret = f"{month}/{day}/19 15:25:00"
     return ret
 
+
 async def main():
     conn_str = ''
     if args.type == 'rumination':
         conn_str = "HostName=CowRumHub.azure-devices.net;DeviceId=3;SharedAccessKey=3G5cWVVE8YSJmWrTPnK9xmUjIRGf1oDMy41obtkOKJQ="
     elif args.type == 'milk':
         conn_str = "HostName=CowMilkHub.azure-devices.net;DeviceId=1;SharedAccessKey=gvZV2qRpNcFyrnVMJLpzk4yarEQqxIe2lfnn/YvyWzQ="
-    else:
+    elif args.type == 'weather':
         conn_str = "HostName=CowWeatherHub.azure-devices.net;DeviceId=2;SharedAccessKey=VdJyp9ONibHfPpudrqqvH7M7qDDfY0RCXeBBnlDJtTs="
-    conn_str = "HostName=cowhub.azure-devices.net;DeviceId=milk;SharedAccessKey=AvMmflC1Uztl4FZl1ME4cPhJFkBiZWxRM7jvW6n9qNo="
-    conn_str = "HostName=CowWeatherHub.azure-devices.net;DeviceId=2;SharedAccessKey=VdJyp9ONibHfPpudrqqvH7M7qDDfY0RCXeBBnlDJtTs="
+    #conn_str = "HostName=cowhub.azure-devices.net;DeviceId=milk;SharedAccessKey=AvMmflC1Uztl4FZl1ME4cPhJFkBiZWxRM7jvW6n9qNo="
+    #conn_str = "HostName=CowWeatherHub.azure-devices.net;DeviceId=2;SharedAccessKey=VdJyp9ONibHfPpudrqqvH7M7qDDfY0RCXeBBnlDJtTs="
     print("Connecting using Connection String " + conn_str)
     device_client = IoTHubDeviceClient.create_from_connection_string(
         conn_str, product_info=model_id
@@ -387,7 +389,7 @@ async def main():
                     "datesql": getRandomTime("milk"),
                     "Animal_ID": 100,
                     "Group_ID": 10,
-                    "Lactation_Num": random.randrange(1,4),
+                    "Lactation_Num": random.randrange(1, 4),
                     "Yield": random.randrange(40000, 65000),
                     "Gynecology_Status": "Pregnant",
                     "Avg_Fat(%)": 1
