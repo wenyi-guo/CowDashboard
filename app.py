@@ -182,6 +182,9 @@ def milk_sum():
     rum_df['Average rumination'] = rum_df['Total rumination'] / \
         rum_df['rumination_count']
     rum_df['Average eating'] = rum_df['Total eating'] / rum_df['eating_count']
+    rum_df = rum_df.drop(['eating_count', 'rumination_count'], axis=1)
+    rum_df = rum_df.reindex(columns=[
+                            'Date', 'Average rumination', 'Average eating', 'Total eating', 'Total rumination'])
     parsed_rum = json.loads(rum_df.to_json(orient="records"))
 
     query_milk = """SELECT c.id, c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
@@ -220,17 +223,18 @@ def milk_sum():
         weather_df = pd.concat([weather_df, weather_input_df], axis=0)
     # print("after conat-----", len(weather_df))
     weather_df['Date'] = weather_df['Date'].dt.strftime('%Y-%m-%d')
-    weather_df.rename(columns={'avg_temp': 'Average temperature (°C)', 'avg_thi': 'Average THI', 'highest_temp': 'Highest temperature',
-                               'highest_thi': 'Highest THI', 'lowest_temp': 'Lowest temperature', 'lowest_thi': 'Lowest THI'}, inplace=True)
-
+    weather_df.rename(columns={'avg_temp': 'Average temperature (°C)', 'avg_thi': 'Average THI', 'highest_temp': 'Highest temperature (°C)',
+                               'highest_thi': 'Highest THI', 'lowest_temp': 'Lowest temperature (°C)', 'lowest_thi': 'Lowest THI'}, inplace=True)
+    weather_df = weather_df.reindex(columns=['Date', 'Average temperature (°C)', 'Highest temperature (°C)',
+                                             'Lowest temperature (°C)', 'Average THI', 'Highest THI', 'Lowest THI'])
     aggregation_functions = {'Lactation number': 'first',
                              'Yield (lb)': 'sum', 'Cow_Num': 'sum'}
     milk_df_temp = milk_df.groupby(
         milk_df['Date']).aggregate(aggregation_functions)
     df = pd.merge(milk_df_temp, weather_df, on="Date")
     df = df.drop(['Lactation number'], axis=1)
-    df = df.drop(['Highest temperature', 'Highest THI',
-                  'Lowest temperature', 'Lowest THI'], axis=1)
+    df = df.drop(['Highest temperature (°C)', 'Highest THI',
+                  'Lowest temperature (°C)', 'Lowest THI'], axis=1)
     df['Average yield (lb)'] = (df['Yield (lb)']/df['Cow_Num'])
     df = df.astype({"Average yield (lb)": int})
 
@@ -241,6 +245,8 @@ def milk_sum():
     milk_df = milk_df.astype({"Average yield (lb)": int})
     milk_df = milk_df.drop(['Cow_Num'], axis=1)
     milk_df = milk_df.drop(['id'], axis=1)
+    milk_df = milk_df.reindex(
+        columns=['Date', 'Lactation number', 'Average yield (lb)', 'Yield (lb)'])
     result_milk = milk_df.to_json(orient="records")
     parsed_milk = json.loads(result_milk)
 
