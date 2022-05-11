@@ -295,8 +295,6 @@ async def main():
         conn_str = "HostName=CowMilkHub.azure-devices.net;DeviceId=1;SharedAccessKey=gvZV2qRpNcFyrnVMJLpzk4yarEQqxIe2lfnn/YvyWzQ="
     elif args.type == 'weather':
         conn_str = "HostName=CowWeatherHub.azure-devices.net;DeviceId=2;SharedAccessKey=VdJyp9ONibHfPpudrqqvH7M7qDDfY0RCXeBBnlDJtTs="
-    #conn_str = "HostName=cowhub.azure-devices.net;DeviceId=milk;SharedAccessKey=AvMmflC1Uztl4FZl1ME4cPhJFkBiZWxRM7jvW6n9qNo="
-    #conn_str = "HostName=CowWeatherHub.azure-devices.net;DeviceId=2;SharedAccessKey=VdJyp9ONibHfPpudrqqvH7M7qDDfY0RCXeBBnlDJtTs="
     print("Connecting using Connection String " + conn_str)
     device_client = IoTHubDeviceClient.create_from_connection_string(
         conn_str, product_info=model_id

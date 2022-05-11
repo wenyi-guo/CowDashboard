@@ -100,9 +100,9 @@ def process_milk_input():
 
     new_df = milk_df_input.groupby(['Date', 'Lactation_Num'], as_index=False).agg({
         "Yield(gr)": 'sum', 'Cow_Num': 'sum'})
-    for index, row in new_df.iterrows():
-        new_df['id'] = str(time_str_to_unix(row['Date'])) + \
-            "_"+str(float(row['Lactation_Num']))
+    # for index, row in new_df.iterrows():
+    #     new_df['id'] = str(time_str_to_unix(row['Date'])) + \
+    #         "_"+str(float(row['Lactation_Num']))
     return new_df
 
 
@@ -119,6 +119,7 @@ def process_weather_input():
         'Date', 'highest_temp', 'lowest_temp', 'avg_temp', 'highest_thi', 'lowest_thi', 'avg_thi', 'num_records_on_day'])
     first_row = weather_input_data.iloc[0]
     new_first_row = {}
+    new_first_row['Date'] = first_row['Date']
     new_first_row['highest_temp'] = first_row['AvgBGTemp__P4']
     new_first_row['lowest_temp'] = first_row['AvgBGTemp__P4']
     new_first_row['avg_temp'] = first_row['AvgBGTemp__P4']
@@ -176,7 +177,8 @@ def milk_sum():
         enable_cross_partition_query=True
     ))
     processed_rum = process_rumination(items_rum_temp)
-    rum_df = rum_df.append(processed_rum) if not processed_rum.empty else rum_df
+    rum_df = rum_df.append(
+        processed_rum) if not processed_rum.empty else rum_df
 
     rum_df['Date'] = rum_df['Date'].dt.strftime('%Y-%m-%d')
     rum_df.rename(columns={'total_rumination': 'Total rumination',
@@ -185,7 +187,6 @@ def milk_sum():
         rum_df['rumination_count']
     rum_df['Average eating'] = rum_df['Total eating'] / rum_df['eating_count']
     parsed_rum = json.loads(rum_df.to_json(orient="records"))
-
 
     query_milk = """SELECT c.id, c.Date, c.Lactation_Num, c["Yield(gr)"], c.Cow_Num FROM c"""
     items_milk = list(milk_container.query_items(
@@ -210,15 +211,16 @@ def milk_sum():
         enable_cross_partition_query=True
     ))
     weather_df = pd.read_json(json.dumps(items_weather), orient='records')
-    print("weather_df--------", weather_df.iloc[1]['Date'])
+    weather_input_df = process_weather_input()
+    print("weather input-----")
+    print(weather_input_df)
+    print("weather df-----", weather_df.iloc[1])
+    if not weather_input_df.empty:
+        weather_df = pd.concat([weather_df, weather_input_df])
+
     weather_df['Date'] = weather_df['Date'].dt.strftime('%Y-%m-%d')
     weather_df.rename(columns={'avg_temp': 'Average temperature (°C)', 'avg_thi': 'Average THI', 'highest_temp': 'Highest temperature',
                                'highest_thi': 'Highest THI', 'lowest_temp': 'Lowest temperature', 'lowest_thi': 'Lowest THI'}, inplace=True)
-    weather_input_df = process_weather_input()
-    print("-----here", weather_input_df.iloc[0])
-    print("-----here", weather_df.iloc[0])
-    if not weather_input_df:
-        weather_df = pd.concat([weather_df, weather_input_df])
 
     aggregation_functions = {'Lactation number': 'first',
                              'Yield (lb)': 'sum', 'Cow_Num': 'sum'}
