@@ -9,7 +9,7 @@ import Rum from './rumination';
 
 function App() {
     const [data, setData] = useState({})
-    const [type, setType] = useState("milk")
+    const [type, setType] = useState("milk-type")
     useEffect(() => {
         fetch("/sum").then(
             res => res.json()

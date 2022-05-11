@@ -4,6 +4,10 @@ MILK="HostName=CowMilkHub.azure-devices.net;DeviceId=1;SharedAccessKey=gvZV2qRpN
 WEATHER="HostName=CowWeatherHub.azure-devices.net;DeviceId=2;SharedAccessKey=VdJyp9ONibHfPpudrqqvH7M7qDDfY0RCXeBBnlDJtTs="
 COW="HostName=cowhub.azure-devices.net;DeviceId=milk;SharedAccessKey=AvMmflC1Uztl4FZl1ME4cPhJFkBiZWxRM7jvW6n9qNo="
 
-# python3 cow_data_simulator.py $RUM "rumination" 
-# python3 cow_data_simulator.py $MILK "milk"
-# python3 cow_data_simulator.py $WEATHER "weather"
+# source venv/bin/activate
+# python3 temp_controller_with_thermostats.py
+
+
+python3 cow_data_simulator.py "rumination" 
+# python3 cow_data_simulator.py "milk" &
+# python3 cow_data_simulator.py "weather" &
