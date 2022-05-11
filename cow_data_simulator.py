@@ -161,7 +161,7 @@ async def send_telemetry_from_temp_controller(device_client, telemetry_msg, comp
     await device_client.send_message(msg)
     print("Sent message")
     print(msg)
-    await asyncio.sleep(5)
+    await asyncio.sleep(1)
 
 
 #####################################################
@@ -272,15 +272,21 @@ async def provision_device(provisioning_host, id_scope, registration_id, symmetr
 def getRandomTime(type):
     year = 2019
     month = 1
-    day = random.randrange(1, 28)
+    day = random.randrange(25, 28)
     ret = ""
     if type == "milk":
         ret = f"{day}/{month}/{year}"
     elif type == "rum":
+        year = 2019
+        month = 1
+        day = random.randrange(1, 6)
         month = "{:02d}".format(month)
         day = "{:02d}".format(day)
         ret = f"{year}/{month}/{day} 01:00:12.575757+00"
     else:
+        year = 2019
+        month = 4
+        day = random.randrange(1, 5)
         month = "{:02d}".format(month)
         day = "{:02d}".format(day)
         ret = f"{month}/{day}/19 15:25:00"

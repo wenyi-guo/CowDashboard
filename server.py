@@ -1,10 +1,13 @@
 from flask import Flask
+from sqlalchemy import true
 from azure.cosmos import exceptions, CosmosClient, PartitionKey
 import pandas as pd
 import json
 from datetime import datetime
 import time
 from runmination_process import process_rumination
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 endpoint = "https://diaryinstance.documents.azure.com:443/"
 
@@ -60,7 +63,7 @@ def weather():
         query=query,
         enable_cross_partition_query=True
     ))
-    print(type(items[0]['Date']))
+    # print(type(items[0]['Date']))
     return {"weather": items}
 
 
@@ -113,54 +116,44 @@ def process_weather_input():
         query=query_weather_input,
         enable_cross_partition_query=True
     ))
+    # print("list length", len(items_weather_input))
+    # print("list: ", items_weather_input)
     weather_input_data = pd.read_json(
         json.dumps(items_weather_input), orient='records')
-    newWeather = pd.DataFrame(columns=[
-        'Date', 'highest_temp', 'lowest_temp', 'avg_temp', 'highest_thi', 'lowest_thi', 'avg_thi', 'num_records_on_day'])
-    first_row = weather_input_data.iloc[0]
-    new_first_row = {}
-    new_first_row['Date'] = first_row['Date']
-    new_first_row['highest_temp'] = first_row['AvgBGTemp__P4']
-    new_first_row['lowest_temp'] = first_row['AvgBGTemp__P4']
-    new_first_row['avg_temp'] = first_row['AvgBGTemp__P4']
-    new_first_row['highest_thi'] = first_row['THI_P4']
-    new_first_row['lowest_thi'] = first_row['THI_P4']
-    new_first_row['avg_thi'] = first_row['THI_P4']
-    new_first_row['num_records_on_day'] = 1
-    newWeather.loc[0] = new_first_row
+    # print("is empty ", weather_input_data.empty)
+    if weather_input_data.empty:
+        return weather_input_data
 
-    for i, row in weather_input_data.iterrows():
-        if i != 0:
-            last_i = len(newWeather)-1
-            last_row = (newWeather.loc[last_i]).copy()
-            if row['Date'] == last_row['Date']:
-                if row['AvgBGTemp__P4'] > last_row['highest_temp']:
-                    last_row['highest_temp'] = row['AvgBGTemp__P4']
-                if row['AvgBGTemp__P4'] < last_row['lowest_temp']:
-                    last_row['lowest_temp'] = row['AvgBGTemp__P4']
-                if row['THI_P4'] > last_row['highest_thi']:
-                    last_row['highest_thi'] = row['THI_P4']
-                if row['THI_P4'] < last_row['lowest_thi']:
-                    last_row['lowest_thi'] = row['THI_P4']
-                last_row['avg_temp'] = (last_row['avg_temp'] *
-                                        last_row['num_records_on_day'] + row['AvgBGTemp__P4']) / (last_row['num_records_on_day'] + 1)
-                last_row['avg_thi'] = (last_row['avg_thi'] *
-                                       last_row['num_records_on_day'] + row['THI_P4']) / (last_row['num_records_on_day'] + 1)
-                last_row['num_records_on_day'] += 1
-                newWeather.loc[len(newWeather)-1] = last_row
-            else:
-                new_row = {}
-                new_row['Date'] = row['Date']
-                new_row['highest_temp'] = row['AvgBGTemp__P4']
-                new_row['lowest_temp'] = row['AvgBGTemp__P4']
-                new_row['avg_temp'] = row['AvgBGTemp__P4']
-                new_row['highest_thi'] = row['THI_P4']
-                new_row['lowest_thi'] = row['THI_P4']
-                new_row['avg_thi'] = row['THI_P4']
-                new_row['num_records_on_day'] = 1
-                newWeather.loc[len(newWeather)] = new_row
+    newWeatherTemp = weather_input_data.groupby('Date').agg(
+        {"AvgBGTemp__P4": {'max', 'min', 'mean'}}, as_index=False)
+    #newWeatherTemp.columns = newWeatherTemp.columns.droplevel()
+    # newWeatherTemp.index = newWeatherTemp.index.map('_'.join)
+    newWeatherTemp.columns = ['_'.join(col) if type(
+        col) is tuple else col for col in newWeatherTemp.columns.values]
+    # print("shoudl be good", newWeatherTemp.columns)
+    newWeatherTemp.rename(columns={'Date_': 'Date', 'AvgBGTemp__P4_max': 'highest_temp',
+                                   'AvgBGTemp__P4_min': 'lowest_temp', 'AvgBGTemp__P4_mean': 'avg_temp'}, inplace=True)
 
-        return newWeather
+    newWeatherTHI = weather_input_data.groupby(
+        'Date').agg({"THI_P4": {'max', 'min', 'mean'}}, as_index=False).reset_index()
+    #newWeatherTHI.columns = newWeatherTHI.columns.droplevel()
+    newWeatherTHI.columns = ['_'.join(col) if type(
+        col) is tuple else col for col in newWeatherTHI.columns.values]
+    # print("shoudl be good", newWeatherTHI.columns)
+    newWeatherTHI.rename(columns={'Date_': 'Date', 'THI_P4_max': 'highest_thi',
+                                  'THI_P4_min': 'lowest_thi', 'THI_P4_mean': 'avg_thi'}, inplace=True)
+
+    # newWeatherTHI.rename(columns={
+    #  'max': 'highest_thi', 'min': 'lowest_thi', 'mean': 'avg_thi'}, inplace=True)
+    newWeather = pd.merge(newWeatherTemp, newWeatherTHI, on="Date")
+    # print("===============new weather", newWeather)
+    # print(newWeather.columns)
+    newWeather['Date'] = newWeather['Date']
+    #newWeather = newWeather.drop(['AvgBGTemp__P4', 'THI_P4'], axis=1)
+    # print("newWeatherTemp", newWeatherTemp.columns)
+    # print("newWeatherTHI", newWeatherTHI.columns)
+
+    return newWeather
 
 
 @app.route("/sum")
@@ -177,8 +170,11 @@ def milk_sum():
         enable_cross_partition_query=True
     ))
     processed_rum = process_rumination(items_rum_temp)
-    rum_df = rum_df.append(
-        processed_rum) if not processed_rum.empty else rum_df
+    # print(processed_rum)
+    rum_df = pd.concat([rum_df, processed_rum],
+                       axis=0) if not processed_rum.empty else rum_df
+    # rum_df.append(
+    #     processed_rum) if not processed_rum.empty else rum_df
 
     rum_df['Date'] = rum_df['Date'].dt.strftime('%Y-%m-%d')
     rum_df.rename(columns={'total_rumination': 'Total rumination',
@@ -194,10 +190,12 @@ def milk_sum():
         enable_cross_partition_query=True
     ))
     milk_df = pd.read_json(json.dumps(items_milk), orient='records')
+    # print('----milk df before', len(milk_df))
     milk_input_df = process_milk_input()
     if not milk_input_df.empty:
-        milk_df = milk_df.append(milk_input_df)
-
+        milk_df = pd.concat([milk_df, milk_input_df])
+        # milk_df.append(milk_input_df)
+    # print('----milk df after', len(milk_df))
     milk_df['Date'] = milk_df['Date'].dt.strftime('%Y-%m-%d')
 
     milk_df['Yield(gr)'] = milk_df['Yield(gr)'] * gram_to_lb
@@ -212,12 +210,15 @@ def milk_sum():
     ))
     weather_df = pd.read_json(json.dumps(items_weather), orient='records')
     weather_input_df = process_weather_input()
-    print("weather input-----")
-    print(weather_input_df)
-    print("weather df-----", weather_df.iloc[1])
-    if not weather_input_df.empty:
-        weather_df = pd.concat([weather_df, weather_input_df])
-
+    # print("weather input-----", len(weather_input_df))
+    # print(weather_input_df.head(5))
+    # print("weather df-----", len(weather_df), weather_df.iloc[1])
+    # print("not weather_input_df.empty", not weather_input_df.empty)
+    if not weather_input_df.empty > 0:
+        # print("======", weather_df.columns)
+        # print("======", weather_input_df.columns)
+        weather_df = pd.concat([weather_df, weather_input_df], axis=0)
+    # print("after conat-----", len(weather_df))
     weather_df['Date'] = weather_df['Date'].dt.strftime('%Y-%m-%d')
     weather_df.rename(columns={'avg_temp': 'Average temperature (°C)', 'avg_thi': 'Average THI', 'highest_temp': 'Highest temperature',
                                'highest_thi': 'Highest THI', 'lowest_temp': 'Lowest temperature', 'lowest_thi': 'Lowest THI'}, inplace=True)

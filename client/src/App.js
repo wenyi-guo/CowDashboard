@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { Table } from 'antd';
 // import 'antd/dist/antd.less';
 import 'antd/dist/antd.css';
@@ -10,15 +10,40 @@ import Rum from './rumination';
 function App() {
     const [data, setData] = useState({})
     const [type, setType] = useState("milk-type")
+    const fetchData = useCallback(async () => {
+        console.log("----------REFRESH---");
+        try {
+            fetch("/sum").then(
+                res => res.json()
+            ).then(
+                data => {
+                    setData(data)
+                }
+            )
+        }
+        catch (err) {
+            console.log(err);
+        }
+    }, []);
     useEffect(() => {
-        fetch("/sum").then(
-            res => res.json()
-        ).then(
-            data => {
-                setData(data)
-            }
-        )
-    }, [])
+        fetchData();
+        const interval = setInterval(() => {
+            fetchData();
+        }, 2000);
+        return () => clearInterval(interval);
+    }, [fetchData]);
+
+    // useEffect(() => {
+    //     fetch("/sum").then(
+    //         res => res.json()
+    //     ).then(
+    //         data => {
+    //             setData(data)
+    //         }
+    //     )
+    // }, [])
+
+
 
 
     const renderTab = () => {
