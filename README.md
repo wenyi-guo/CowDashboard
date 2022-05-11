@@ -9,11 +9,11 @@
 
 `pip install -r requirements.txt`
 
-`export FLASK_APP=server.py`
+`export FLASK_APP=app.py`
 
 `flask run`
 
-Check http://127.0.0.1:5000/members to see backend API 
+Check http://127.0.0.1:5000/sum to see backend API 
 
 
 ## Frondend
